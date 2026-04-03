@@ -2,13 +2,20 @@
 
 Notes and exercises covering Linux fundamentals for cybersecurity.
 
-## Topics
-- File system navigation and permissions
-- User and group management
-- Process management
-- Networking tools (`netstat`, `ss`, `nmap`, `tcpdump`)
-- Shell scripting basics
-- Log analysis
+## Module Structure
+- [x] 1.1 Introduction to Linux
+- [ ] 1.2 Basic Commands
+- [ ] 1.3 Searching in Linux
+- [ ] 1.4 Practical Exercises (Optional)
+- [ ] 1.5 Operations on Files and Directories
+- [ ] 1.6 Gathering System Information
+- [ ] 1.7 Practical Exercises (Optional)
+- [ ] 1.8 Text Editors
+- [ ] 1.9 Permissions
+- [ ] 1.10 User Management
+- [ ] 1.11 Practical Exercises (Optional)
+- [ ] 1.12 Software Installation
+- [ ] 1.13 Processes and Services
 
 ## Progress
 - Deployed Kali Linux on Oracle VirtualBox
