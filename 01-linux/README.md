@@ -18,6 +18,17 @@ Notes and exercises covering Linux fundamentals for cybersecurity.
 - `sudo su` - Switches from the current user to the root user with elevated privileges.
 - `exit` - Leaves the current shell session, which here was used to exit the root shell and return to the `kali` user.
 - `tree -L 1 /` - Shows the top-level directory structure of the root filesystem, limited to one level deep.
+- `ls -la /etc` - Lists all files in `/etc` in long format, including hidden entries, and shows permissions, owner, group, size, and modification date.
+
+## Permission Format
+- `d` - Entry is a directory.
+- `-` - Entry is a regular file.
+- `r` - Read permission.
+- `w` - Write permission.
+- `x` - Execute permission.
+- The first character shows the file type, for example `d` for directory or `-` for file.
+- The next 9 characters are grouped as `rwxrwxrwx` for user, group, and others.
+- Example: `drwxr-xr-x` means a directory where the owner has full access, and group and others can read and enter it.
 
 ## Linux Structure
 - `/bin` - Essential user command binaries. On this system it links to `/usr/bin`.
