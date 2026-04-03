@@ -1,58 +1,35 @@
-# 01 – Linux
+# 01 - Linux
 
 Notes and exercises covering Linux fundamentals for cybersecurity.
 
 ## Module Structure
-- [x] 1.1 Introduction to Linux
-- [ ] 1.2 Basic Commands
-- [ ] 1.3 Searching in Linux
-- [ ] 1.4 Practical Exercises (Optional)
-- [ ] 1.5 Operations on Files and Directories
-- [ ] 1.6 Gathering System Information
-- [ ] 1.7 Practical Exercises (Optional)
-- [ ] 1.8 Text Editors
-- [ ] 1.9 Permissions
-- [ ] 1.10 User Management
-- [ ] 1.11 Practical Exercises (Optional)
-- [ ] 1.12 Software Installation
-- [ ] 1.13 Processes and Services
+- [x] [1. Introduction to Linux](./01-introduction-to-linux.md)
+- [ ] [2. Basic Commands](./02-basic-commands.md)
+- [ ] [3. Searching in Linux](./03-searching-in-linux.md)
+- [ ] [4. Practical Exercises (Optional)](./04-practical-exercises-optional.md)
+- [ ] [5. Operations on Files and Directories](./05-operations-on-files-and-directories.md)
+- [ ] [6. Gathering System Information](./06-gathering-system-information.md)
+- [ ] [7. Practical Exercises (Optional)](./07-practical-exercises-optional.md)
+- [ ] [8. Text Editors](./08-text-editors.md)
+- [ ] [9. Permissions](./09-permissions.md)
+- [ ] [10. User Management](./10-user-management.md)
+- [ ] [11. Practical Exercises (Optional)](./11-practical-exercises-optional.md)
+- [ ] [12. Software Installation](./12-software-installation.md)
+- [ ] [13. Processes and Services](./13-processes-and-services.md)
 
-## Progress
-- Deployed Kali Linux on Oracle VirtualBox
+## Lesson Files
+- `01-introduction-to-linux.md` - Lesson 1 notes and commands.
+- `02-basic-commands.md` - Lesson 2 notes.
+- `03-searching-in-linux.md` - Lesson 3 notes.
+- `04-practical-exercises-optional.md` - Lesson 4 notes.
+- `05-operations-on-files-and-directories.md` - Lesson 5 notes.
+- `06-gathering-system-information.md` - Lesson 6 notes.
+- `07-practical-exercises-optional.md` - Lesson 7 notes.
+- `08-text-editors.md` - Lesson 8 notes.
+- `09-permissions.md` - Lesson 9 notes.
+- `10-user-management.md` - Lesson 10 notes.
+- `11-practical-exercises-optional.md` - Lesson 11 notes.
+- `12-software-installation.md` - Lesson 12 notes.
+- `13-processes-and-services.md` - Lesson 13 notes.
 
-## Commands Practiced
-- `echo $SHELL` - Displays the current default shell for the logged-in user, which in this case returned `/usr/bin/zsh`.
-- `sudo su` - Switches from the current user to the root user with elevated privileges.
-- `exit` - Leaves the current shell session, which here was used to exit the root shell and return to the `kali` user.
-- `tree -L 1 /` - Shows the top-level directory structure of the root filesystem, limited to one level deep.
-- `ls -la /etc` - Lists all files in `/etc` in long format, including hidden entries, and shows permissions, owner, group, size, and modification date.
-
-## Permission Format
-- `d` - Entry is a directory.
-- `-` - Entry is a regular file.
-- `r` - Read permission.
-- `w` - Write permission.
-- `x` - Execute permission.
-- The first character shows the file type, for example `d` for directory or `-` for file.
-- The next 9 characters are grouped as `rwxrwxrwx` for user, group, and others.
-- Example: `drwxr-xr-x` means a directory where the owner has full access, and group and others can read and enter it.
-
-## Linux Structure
-- `/bin` - Essential user command binaries. On this system it links to `/usr/bin`.
-- `/boot` - Bootloader files, kernel files, and other data needed during system startup.
-- `/dev` - Device files that represent hardware and virtual devices.
-- `/etc` - System-wide configuration files.
-- `/home` - Home directories for regular users.
-- `/lib` - Essential shared libraries and kernel modules. On this system it links to `/usr/lib`.
-- `/media` - Mount point for removable media such as USB drives.
-- `/mnt` - Temporary mount point for manually mounted filesystems.
-- `/opt` - Optional third-party software packages.
-- `/proc` - Virtual filesystem exposing process and kernel information.
-- `/root` - Home directory of the root user.
-- `/run` - Runtime data created after the system boots.
-- `/sbin` - Essential system administration binaries. On this system it links to `/usr/sbin`.
-- `/srv` - Data served by system services.
-- `/sys` - Virtual filesystem providing access to kernel and hardware information.
-- `/tmp` - Temporary files used by applications and the system.
-- `/usr` - User-space applications, libraries, and shared resources.
-- `/var` - Variable data such as logs, cache, and spool files.
+Detailed notes for each lesson live in the corresponding lesson file.
