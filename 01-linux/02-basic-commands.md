@@ -1,7 +1,7 @@
 # Lesson 2 - Basic Commands
 
 ## Status
-- Draft complete
+- Completed
 
 ## Overview
 - This lesson covers basic terminal navigation, finding help for commands, and discovering related tools from the command line.
