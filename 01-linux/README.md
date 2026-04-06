@@ -9,7 +9,7 @@ Notes and exercises covering Linux fundamentals for cybersecurity.
 - [x] [4. Practical Exercises (Optional)](./04-practical-exercises-optional.md)
 - [x] [5. Operations on Files and Directories](./05-operations-on-files-and-directories.md)
 - [x] [6. Gathering System Information](./06-gathering-system-information.md)
-- [ ] [7. Practical Exercises (Optional)](./07-practical-exercises-optional.md)
+- [x] [7. Practical Exercises (Optional)](./07-practical-exercises-optional.md)
 - [ ] [8. Text Editors](./08-text-editors.md)
 - [ ] [9. Permissions](./09-permissions.md)
 - [ ] [10. User Management](./10-user-management.md)
