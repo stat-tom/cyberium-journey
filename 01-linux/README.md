@@ -5,9 +5,9 @@ Notes and exercises covering Linux fundamentals for cybersecurity.
 ## Module Structure
 - [x] [1. Introduction to Linux](./01-introduction-to-linux.md)
 - [x] [2. Basic Commands](./02-basic-commands.md)
-- [ ] [3. Searching in Linux](./03-searching-in-linux.md)
-- [ ] [4. Practical Exercises (Optional)](./04-practical-exercises-optional.md)
-- [ ] [5. Operations on Files and Directories](./05-operations-on-files-and-directories.md)
+- [x] [3. Searching in Linux](./03-searching-in-linux.md)
+- [x] [4. Practical Exercises (Optional)](./04-practical-exercises-optional.md)
+- [x] [5. Operations on Files and Directories](./05-operations-on-files-and-directories.md)
 - [ ] [6. Gathering System Information](./06-gathering-system-information.md)
 - [ ] [7. Practical Exercises (Optional)](./07-practical-exercises-optional.md)
 - [ ] [8. Text Editors](./08-text-editors.md)
