@@ -6,7 +6,7 @@ Notes and exercises covering core cybersecurity concepts.
 - [x] [1. What Is Cybersecurity?](./01-what-is-cybersecurity.md)
 - [x] [2. CIA Triad](./02-cia-triad.md)
 - [x] [3. CIA Triad Exercise](./03-cia-triad-exercise.md)
-- [ ] [4. Security as a Process - CSF 2.0](./04-security-as-a-process-csf-2-0.md)
+- [x] [4. Security as a Process - CSF 2.0](./04-security-as-a-process-csf-2-0.md)
 - [ ] [5. Vulnerability and the CVSS Scoring System](./05-vulnerability-and-the-cvss-scoring-system.md)
 - [ ] [6. CVSS Practical Exercise](./06-cvss-practical-exercise.md)
 - [ ] [7. Threats and Threat Modeling](./07-threats-and-threat-modeling.md)
