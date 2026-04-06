@@ -21,6 +21,13 @@
 - Typical controls include redundancy, backups, patching, monitoring, failover design, and denial-of-service protection.
 - Example risk: ransomware prevents staff from accessing business systems.
 
+## Additional CIA-Related Attributes
+- Authentication and authorization: verify user identity and ensure each user has the correct level of access.
+- Non-repudiation: prevent users or systems from denying actions they performed, usually through logging, signatures, and audit trails.
+- Resilience: maintain operations during disruption and recover quickly after failures or attacks.
+- Compliance: meet legal, regulatory, contractual, and policy requirements.
+- Privacy: protect personal data and the privacy rights of users.
+
 ## Tradeoffs
 - Security decisions often improve one part of the triad while adding cost or complexity elsewhere.
 - Example: stronger access controls improve confidentiality but may slow down legitimate workflows if implemented poorly.
