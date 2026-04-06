@@ -28,6 +28,24 @@
 - Compliance: meet legal, regulatory, contractual, and policy requirements.
 - Privacy: protect personal data and the privacy rights of users.
 
+## Exemplary CIA Implementation in a Server Room
+
+### Confidentiality in the Server Room
+- Physical access control: use access cards, biometric readers, or security guards to restrict entry to authorized personnel only.
+- Encryption: encrypt stored data on servers and protect data in transit between systems.
+- Network protections: use firewalls, segmentation, and intrusion detection systems to reduce unauthorized access to server-room resources.
+- Authentication: enforce strong passwords and multi-factor authentication for administrative access.
+
+### Integrity in the Server Room
+- Version control and backups: maintain versioned configurations and regular backups so trusted states can be restored.
+- Data verification: use checksums, hashes, and digital signatures to confirm that critical data and files were not modified.
+- Change monitoring: review system and application logs to detect unauthorized changes to data, services, or configurations.
+
+### Availability in the Server Room
+- Redundancy: provide redundant hardware, storage, network paths, and internet links to avoid single points of failure.
+- Backup power: use UPS systems and generators so services can continue during electrical outages.
+- Load balancing: distribute traffic across systems to prevent overload and keep services responsive.
+
 ## Tradeoffs
 - Security decisions often improve one part of the triad while adding cost or complexity elsewhere.
 - Example: stronger access controls improve confidentiality but may slow down legitimate workflows if implemented poorly.
