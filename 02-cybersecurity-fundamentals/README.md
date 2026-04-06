@@ -1,4 +1,4 @@
-# 04 - Cybersecurity Fundamentals
+# 02 - Cybersecurity Fundamentals
 
 Notes and exercises covering core cybersecurity concepts.
 
