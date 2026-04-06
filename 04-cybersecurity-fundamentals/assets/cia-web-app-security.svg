@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">CIA triad for web application security</title>
+  <desc id="desc">Diagram showing frontend, backend, database, and availability controls around the confidentiality, integrity, and availability model for web application security.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8fbff"/>
+      <stop offset="100%" stop-color="#eef3f8"/>
+    </linearGradient>
+    <linearGradient id="blueTab" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1570c8"/>
+      <stop offset="100%" stop-color="#0c4f96"/>
+    </linearGradient>
+    <linearGradient id="darkTab" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#536b8f"/>
+      <stop offset="100%" stop-color="#314866"/>
+    </linearGradient>
+    <linearGradient id="orangeTab" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f28a18"/>
+      <stop offset="100%" stop-color="#d35f00"/>
+    </linearGradient>
+    <linearGradient id="greenTab" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7aba26"/>
+      <stop offset="100%" stop-color="#4b8c17"/>
+    </linearGradient>
+    <linearGradient id="centerFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#dfe7f1"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#20344d" flood-opacity="0.18"/>
+    </filter>
+    <marker id="arrowBlue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0c4f96"/>
+    </marker>
+    <marker id="arrowGray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#4a5d79"/>
+    </marker>
+    <marker id="arrowOrange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#d56a0f"/>
+    </marker>
+    <marker id="arrowGreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#5f9f22"/>
+    </marker>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill: #24364a; }
+      .tab { fill: url(#blueTab); filter: url(#shadow); }
+      .tab-dark { fill: url(#darkTab); filter: url(#shadow); }
+      .tab-orange { fill: url(#orangeTab); filter: url(#shadow); }
+      .tab-green { fill: url(#greenTab); filter: url(#shadow); }
+      .tab-label { fill: #ffffff; font-size: 22px; font-weight: 700; letter-spacing: 0.8px; }
+      .section-title { font-size: 20px; font-weight: 700; }
+      .bullet { font-size: 18px; }
+      .small { font-size: 16px; }
+      .triad-label { fill: #ffffff; font-size: 26px; font-weight: 700; }
+      .triad-letter { fill: #ffffff; font-size: 64px; font-weight: 700; }
+      .center-title { fill: #ffffff; font-size: 28px; font-weight: 700; }
+      .center-sub { fill: #314866; font-size: 22px; font-weight: 700; }
+      .cia-main { fill: #314866; font-size: 54px; font-weight: 700; letter-spacing: 10px; }
+      .cia-sub { fill: #4d5f77; font-size: 16px; font-weight: 700; }
+      .arrow { fill: none; stroke-linecap: round; stroke-width: 5; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="820" fill="url(#bg)"/>
+  <line x1="170" y1="95" x2="1030" y2="95" stroke="#c5d2df" stroke-width="2"/>
+
+  <polygon class="tab" points="120,70 315,70 325,95 315,120 120,120 110,95"/>
+  <text class="tab-label" x="218" y="103" text-anchor="middle">FRONTEND</text>
+
+  <polygon class="tab-dark" points="885,70 1100,70 1110,95 1100,120 885,120 875,95"/>
+  <text class="tab-label" x="992" y="103" text-anchor="middle">BACKEND</text>
+
+  <polygon class="tab-orange" points="90,510 305,510 315,535 305,560 90,560 80,535"/>
+  <text class="tab-label" x="198" y="543" text-anchor="middle">DATABASE</text>
+
+  <polygon class="tab-green" points="895,510 1120,510 1130,535 1120,560 895,560 885,535"/>
+  <text class="tab-label" x="1007" y="543" text-anchor="middle">AVAILABILITY</text>
+
+  <rect x="150" y="140" width="95" height="68" rx="4" fill="#ffffff" stroke="#4f617c" stroke-width="5"/>
+  <rect x="158" y="150" width="79" height="44" fill="#d6dee9"/>
+  <rect x="165" y="158" width="24" height="12" fill="#ffffff"/>
+  <rect x="195" y="158" width="35" height="12" fill="#ffffff"/>
+  <rect x="165" y="175" width="65" height="12" fill="#ffffff"/>
+  <rect x="230" y="163" width="38" height="72" rx="4" fill="#4f617c"/>
+  <rect x="236" y="172" width="26" height="42" fill="#ffffff"/>
+  <circle cx="249" cy="223" r="4" fill="#ffffff"/>
+
+  <g transform="translate(128,258)">
+    <text class="section-title" x="0" y="0">USER INTERFACE</text>
+    <line x1="0" y1="18" x2="265" y2="18" stroke="#c5d2df" stroke-width="2"/>
+    <circle cx="18" cy="56" r="6" fill="#1570c8"/>
+    <text class="bullet" x="34" y="62">TLS encryption for traffic</text>
+    <circle cx="18" cy="98" r="6" fill="#1570c8"/>
+    <text class="bullet" x="34" y="104">Secure login and session handling</text>
+    <circle cx="18" cy="140" r="6" fill="#1570c8"/>
+    <text class="bullet" x="34" y="146">Protection against XSS</text>
+  </g>
+
+  <g transform="translate(948,150)">
+    <rect x="0" y="0" width="62" height="26" rx="4" fill="#556983"/>
+    <rect x="4" y="6" width="54" height="6" fill="#74859c"/>
+    <circle cx="47" cy="19" r="3" fill="#d1dd38"/>
+    <rect x="8" y="18" width="10" height="3" fill="#8595a9"/>
+    <rect x="20" y="18" width="10" height="3" fill="#8595a9"/>
+    <rect x="0" y="32" width="62" height="26" rx="4" fill="#46566b"/>
+    <rect x="4" y="38" width="54" height="6" fill="#6f8093"/>
+    <circle cx="47" cy="51" r="3" fill="#d1dd38"/>
+    <rect x="8" y="50" width="10" height="3" fill="#8595a9"/>
+    <rect x="20" y="50" width="10" height="3" fill="#8595a9"/>
+    <rect x="0" y="64" width="62" height="26" rx="4" fill="#3b4757"/>
+    <rect x="4" y="70" width="54" height="6" fill="#647388"/>
+    <circle cx="47" cy="83" r="3" fill="#d1dd38"/>
+    <rect x="8" y="82" width="10" height="3" fill="#8595a9"/>
+    <rect x="20" y="82" width="10" height="3" fill="#8595a9"/>
+  </g>
+
+  <g transform="translate(895,258)">
+    <text class="section-title" x="44" y="0">SERVER</text>
+    <line x1="0" y1="18" x2="170" y2="18" stroke="#c5d2df" stroke-width="2"/>
+    <circle cx="20" cy="56" r="6" fill="#4a5d79"/>
+    <text class="bullet" x="36" y="62">Hardened server configuration</text>
+    <circle cx="20" cy="98" r="6" fill="#4a5d79"/>
+    <text class="bullet" x="36" y="104">Access control and authentication</text>
+    <circle cx="20" cy="140" r="6" fill="#4a5d79"/>
+    <text class="bullet" x="36" y="146">Patch and software updates</text>
+  </g>
+
+  <g transform="translate(112,595)">
+    <ellipse cx="66" cy="18" rx="42" ry="14" fill="#8f98a6"/>
+    <rect x="24" y="18" width="84" height="66" fill="#616d7e"/>
+    <ellipse cx="66" cy="84" rx="42" ry="14" fill="#4e5968"/>
+    <ellipse cx="66" cy="51" rx="42" ry="14" fill="#727d8c"/>
+    <ellipse cx="66" cy="18" rx="42" ry="14" fill="none" stroke="#4c5665" stroke-width="3"/>
+    <ellipse cx="66" cy="51" rx="42" ry="14" fill="none" stroke="#4c5665" stroke-width="3"/>
+    <ellipse cx="66" cy="84" rx="42" ry="14" fill="none" stroke="#4c5665" stroke-width="3"/>
+    <circle cx="97" cy="20" r="3" fill="#d1dd38"/>
+    <circle cx="97" cy="53" r="3" fill="#d1dd38"/>
+    <circle cx="97" cy="86" r="3" fill="#d1dd38"/>
+  </g>
+
+  <g transform="translate(86,715)">
+    <circle cx="18" cy="10" r="6" fill="#1570c8"/>
+    <text class="bullet" x="34" y="16">Data encryption</text>
+    <circle cx="18" cy="52" r="6" fill="#1570c8"/>
+    <text class="bullet" x="34" y="58">Access permissions</text>
+    <circle cx="18" cy="94" r="6" fill="#1570c8"/>
+    <text class="bullet" x="34" y="100">Regular backups</text>
+  </g>
+
+  <g transform="translate(900,610)">
+    <path d="M 40 68 C 12 68 0 48 0 34 C 0 17 15 0 36 0 C 50 0 63 7 70 19 C 77 9 89 2 103 2 C 126 2 144 20 144 43 C 144 69 124 86 100 86 L 40 86 C 29 86 22 82 18 77 C 14 82 8 86 0 86" fill="#2f83d4" opacity="0.95"/>
+    <path d="M 70 40 L 70 66" stroke="#ffffff" stroke-width="7" stroke-linecap="round"/>
+    <path d="M 56 52 L 70 38 L 84 52" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 30 90 L 114 90" stroke="#4a5d79" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="42" cy="90" r="8" fill="#2f83d4"/>
+    <circle cx="72" cy="90" r="8" fill="#d0b328"/>
+    <circle cx="102" cy="90" r="8" fill="#6cab2f"/>
+  </g>
+
+  <g transform="translate(875,718)">
+    <circle cx="18" cy="10" r="6" fill="#6cab2f"/>
+    <text class="bullet" x="34" y="16">High availability mechanisms</text>
+    <circle cx="18" cy="52" r="6" fill="#6cab2f"/>
+    <text class="bullet" x="34" y="58">DDoS protection</text>
+    <circle cx="18" cy="94" r="6" fill="#6cab2f"/>
+    <text class="bullet" x="34" y="100">Monitoring and backups</text>
+  </g>
+
+  <path class="arrow" d="M 305 235 C 360 245 390 275 445 345" stroke="#0c4f96" marker-end="url(#arrowBlue)"/>
+  <path class="arrow" d="M 448 370 C 392 348 350 325 304 260" stroke="#0c4f96" marker-end="url(#arrowBlue)"/>
+  <path class="arrow" d="M 898 236 C 842 252 805 284 752 348" stroke="#4a5d79" marker-end="url(#arrowGray)"/>
+  <path class="arrow" d="M 748 378 C 806 356 845 329 900 262" stroke="#4a5d79" marker-end="url(#arrowGray)"/>
+  <path class="arrow" d="M 314 536 C 395 514 425 496 474 470" stroke="#d56a0f" marker-end="url(#arrowOrange)"/>
+  <path class="arrow" d="M 887 536 C 808 512 776 496 724 470" stroke="#5f9f22" marker-end="url(#arrowGreen)"/>
+
+  <g filter="url(#shadow)">
+    <polygon points="600,122 470,344 730,344" fill="#1471c9"/>
+    <polygon points="470,344 388,488 552,488" fill="#f28a18"/>
+    <polygon points="648,488 812,488 730,344" fill="#7aba26"/>
+    <polygon points="470,344 730,344 648,488 552,488" fill="url(#centerFill)"/>
+    <polygon points="552,488 648,488 600,548" fill="#e7edf5"/>
+  </g>
+
+  <text class="triad-letter" x="600" y="242" text-anchor="middle">C</text>
+  <text class="triad-label" x="600" y="294" text-anchor="middle">CONFIDENTIALITY</text>
+
+  <text class="triad-letter" x="470" y="435" text-anchor="middle">I</text>
+  <text class="triad-label" x="470" y="470" text-anchor="middle">INTEGRITY</text>
+
+  <text class="triad-letter" x="730" y="435" text-anchor="middle">A</text>
+  <text class="triad-label" x="730" y="470" text-anchor="middle">AVAILABILITY</text>
+
+  <text class="center-title" x="600" y="389" text-anchor="middle">WEB APPLICATION</text>
+  <text class="center-title" x="600" y="425" text-anchor="middle">SECURITY</text>
+
+  <text class="cia-main" x="600" y="495" text-anchor="middle">CIA</text>
+  <text class="cia-sub" x="600" y="520" text-anchor="middle">CONFIDENTIALITY   INTEGRITY   AVAILABILITY</text>
+</svg>

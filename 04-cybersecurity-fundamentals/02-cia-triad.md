@@ -1,7 +1,7 @@
 # Lesson 2 - CIA Triad
 
 ## Status
-- Not completed
+- Completed
 
 ## Overview
 - The CIA triad is a foundational model used to describe three core information security objectives: confidentiality, integrity, and availability.

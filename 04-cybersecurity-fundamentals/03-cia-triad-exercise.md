@@ -1,45 +1,69 @@
 # Lesson 3 - CIA Triad Exercise
 
 ## Status
-- Not completed
+- Completed
 
 ## Objective
-- Practice identifying whether a scenario mainly affects confidentiality, integrity, availability, or more than one of them.
+- Apply the CIA triad to a web application by breaking it into smaller components and identifying practical security controls for each one.
 
-## Scenario 1
-- A company laptop is stolen and the disk is not encrypted.
-- Primary impact: confidentiality.
-- Why: unauthorized parties may read sensitive files stored on the device.
-- Helpful controls: full-disk encryption, remote wipe, strong login protection.
+## Task
+- Based on the previous lesson, think about how you would secure a web application.
+- Divide the application into smaller parts such as the frontend, backend, and database.
+- For each part, write down controls that support confidentiality, integrity, and availability.
 
-## Scenario 2
-- An attacker changes a DNS record so users are redirected to a fake website.
-- Primary impact: integrity.
-- Why: the information used to route users has been tampered with.
-- Helpful controls: change control, multi-factor authentication, DNS monitoring, registrar lock.
+## Example Diagram
+![CIA triad for web application security](./assets/cia-web-app-security.svg)
 
-## Scenario 3
-- A DDoS attack takes down the public customer portal.
-- Primary impact: availability.
-- Why: legitimate users cannot access the service.
-- Helpful controls: rate limiting, upstream filtering, autoscaling, content delivery networks.
+## Example Answer
 
-## Scenario 4
-- An employee shares a spreadsheet with the wrong external recipient.
-- Primary impact: confidentiality.
-- Secondary impact: possible compliance and reputational damage.
-- Helpful controls: data loss prevention, access review, user awareness training.
+### 1. Frontend (User Interface)
 
-## Scenario 5
-- Malware encrypts the file server and deletes recent backups.
-- Primary impact: availability.
-- Secondary impact: integrity, because trusted data and backups have been altered.
-- Helpful controls: offline backups, endpoint detection, privileged access control, network segmentation.
+#### Confidentiality
+- Use HTTPS/TLS to encrypt traffic between the user and the server.
+- Do not store sensitive data such as passwords in localStorage or in cookies without strong protection.
+- Limit data visibility to what the user is authorized to see by using role-based access control.
+
+#### Integrity
+- Validate input on both the client side and the server side to reduce the risk of unauthorized changes.
+- Use Content Security Policy (CSP) to reduce the risk of malicious scripts modifying content in the browser.
+
+#### Availability
+- Reduce page load time and use caching and a CDN so the site stays responsive during heavy traffic.
+- Handle frontend errors so one failing component does not block the whole application.
+
+### 2. Backend (Server)
+
+#### Confidentiality
+- Encrypt data in transit with HTTPS and protect sensitive files or secrets at rest.
+- Use strong authentication and authorization such as secure sessions or JWT-based access control.
+
+#### Integrity
+- Validate and sanitize all data received by the server.
+- Keep audit logs for important changes in data and administrative actions.
+- Prevent attacks such as SQL injection and cross-site scripting by using secure coding practices and defensive controls.
+
+#### Availability
+- Use a load balancer and redundant servers to keep the service available during traffic spikes or failures.
+- Apply rate limiting to reduce the impact of denial-of-service attempts.
+
+### 3. Database
+
+#### Confidentiality
+- Encrypt sensitive data and store passwords as strong password hashes, for example with bcrypt.
+- Restrict database access to the application server and authorized administrators only.
+
+#### Integrity
+- Use transactions and ACID properties to keep data consistent.
+- Perform regular backups and validate important records when needed.
+
+#### Availability
+- Use database replication, hot standby systems, and regular backups.
+- Monitor the database and prepare automatic recovery procedures for failures.
 
 ## Reflection Questions
-- Which part of the CIA triad is most critical for a hospital system, and why?
-- Can one control strengthen more than one part of the triad?
-- Which incidents in your environment would have the highest business impact?
+- Which controls improve more than one pillar of the CIA triad at the same time?
+- Which application component would be the highest priority in your environment, and why?
+- What additional controls would you add for monitoring and incident response?
 
 ## Notes
-- Real incidents rarely fit into only one category. The exercise is meant to highlight the dominant impact first.
+- A secure web application depends on multiple layers of protection. One weak component can affect the confidentiality, integrity, and availability of the whole system.
