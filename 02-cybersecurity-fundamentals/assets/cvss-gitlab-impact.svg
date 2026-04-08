@@ -9,7 +9,8 @@
     </style>
   </defs>
   <rect width="1200" height="1120" fill="#150f45"/>
-  <text x="60" y="100" class="title">Impact on Integrity and Availability</text>
+  <text x="60" y="100" class="title">Impact on Integrity</text>
+  <text x="60" y="154" class="title">and Availability</text>
 
   <rect x="60" y="188" width="490" height="320" rx="10" fill="#2b2357"/>
   <rect x="88" y="224" width="434" height="170" rx="8" fill="#5b2a84"/>
@@ -24,18 +25,20 @@
   <path d="M788 260 L924 356" stroke="#ff4d6d" stroke-width="8"/>
   <path d="M924 260 L788 356" stroke="#ff4d6d" stroke-width="8"/>
   <text x="806" y="320" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">GitLab</text>
-  <text x="638" y="576" class="cardTitle">High Impact on Availability</text>
-  <text x="638" y="632" class="body">An attacker can heavily disrupt or</text>
-  <text x="638" y="670" class="body">fully stop GitLab services.</text>
+  <text x="638" y="576" class="cardTitle">High Impact on</text>
+  <text x="638" y="608" class="cardTitle">Availability</text>
+  <text x="638" y="656" class="body">An attacker can heavily disrupt or</text>
+  <text x="638" y="694" class="body">fully stop GitLab services.</text>
 
-  <text x="60" y="800" class="title">Analysis and Implications</text>
-  <rect x="60" y="868" width="490" height="190" rx="10" fill="#3d396d"/>
-  <text x="94" y="932" class="cardTitle">Highest Severity</text>
-  <text x="94" y="990" class="body">A score of 10.0 means the issue sits</text>
-  <text x="94" y="1028" class="body">at the critical end of the scale.</text>
+  <text x="60" y="820" class="title">Analysis and</text>
+  <text x="60" y="874" class="title">Implications</text>
+  <rect x="60" y="918" width="490" height="190" rx="10" fill="#3d396d"/>
+  <text x="94" y="982" class="cardTitle">Highest Severity</text>
+  <text x="94" y="1040" class="body">A score of 10.0 means the issue sits</text>
+  <text x="94" y="1078" class="body">at the critical end of the scale.</text>
 
-  <rect x="590" y="868" width="550" height="190" rx="10" fill="#3d396d"/>
-  <text x="624" y="932" class="cardTitle">Easy to Exploit</text>
-  <text x="624" y="990" class="body">No privileges, low complexity, and</text>
-  <text x="624" y="1028" class="body">no user interaction make exploitation easier.</text>
+  <rect x="590" y="918" width="550" height="190" rx="10" fill="#3d396d"/>
+  <text x="624" y="982" class="cardTitle">Easy to Exploit</text>
+  <text x="624" y="1040" class="body">No privileges, low complexity, and</text>
+  <text x="624" y="1078" class="body">no user interaction make exploitation easier.</text>
 </svg>

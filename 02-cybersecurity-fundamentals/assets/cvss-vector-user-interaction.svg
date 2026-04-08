@@ -13,7 +13,8 @@
   </defs>
   <rect width="1200" height="700" fill="#140f44"/>
   <text x="62" y="98" class="title">User Interaction (UI): None</text>
-  <text x="62" y="142" class="subtitle">The exploit can succeed without the victim clicking, opening, approving, or typing anything.</text>
+  <text x="62" y="142" class="subtitle">The exploit can succeed without the victim clicking,</text>
+  <text x="62" y="172" class="subtitle">opening, approving, or typing anything.</text>
   <rect x="62" y="200" width="640" height="152" rx="22" fill="#221d60" stroke="#5b50b5" stroke-width="2"/>
   <text x="98" y="270" class="code">CVSS:3.1/AV:N/AC:L/PR:L/UI:N</text>
   <text x="98" y="304" class="code">S:U/C:H/I:H/A:H</text>
@@ -21,10 +22,11 @@
   <polygon points="846,430 812,412 812,448" fill="#ff5f5f"/>
   <rect x="790" y="234" width="336" height="254" rx="24" fill="#2f2a68"/>
   <text x="824" y="288" class="panelTitle">UI:N means:</text>
-  <text x="824" y="336" class="body">No extra human action is needed</text>
-  <text x="824" y="372" class="body">after the attacker reaches the target.</text>
-  <text x="824" y="428" class="body">The attack can often be automated</text>
-  <text x="824" y="464" class="body">and repeated at scale.</text>
+  <text x="824" y="336" class="body">No extra human action</text>
+  <text x="824" y="372" class="body">is needed after the</text>
+  <text x="824" y="408" class="body">attacker reaches the target.</text>
+  <text x="824" y="452" class="body">The attack can often</text>
+  <text x="824" y="484" class="body">be automated at scale.</text>
   <rect x="62" y="430" width="640" height="170" rx="22" fill="#1f1a57"/>
   <rect x="96" y="470" width="42" height="42" rx="8" fill="#4d458f"/>
   <text x="110" y="500" class="num">1</text>

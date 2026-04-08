@@ -12,7 +12,8 @@
   </defs>
   <rect width="1200" height="700" fill="#140f44"/>
   <text x="62" y="98" class="title">Attack Complexity (AC): Low</text>
-  <text x="62" y="142" class="subtitle">The attack works without unusual preparation, race conditions, or rare environmental requirements.</text>
+  <text x="62" y="142" class="subtitle">The attack works without unusual preparation,</text>
+  <text x="62" y="172" class="subtitle">race conditions, or rare environmental requirements.</text>
   <rect x="62" y="200" width="640" height="152" rx="22" fill="#221d60" stroke="#5b50b5" stroke-width="2"/>
   <text x="98" y="270" class="code">CVSS:3.1/AV:N/AC:L/PR:L/UI:N</text>
   <text x="98" y="304" class="code">S:U/C:H/I:H/A:H</text>
@@ -26,5 +27,6 @@
   <text x="824" y="464" class="body">straightforward once reachable.</text>
   <rect x="62" y="430" width="640" height="170" rx="22" fill="#1f1a57"/>
   <text x="96" y="488" class="panelTitle">Why it matters</text>
-  <text x="96" y="534" class="body">Low complexity increases the chance of reliable exploitation and often raises the operational priority of patching.</text>
+  <text x="96" y="534" class="body">Low complexity increases the chance of reliable</text>
+  <text x="96" y="566" class="body">exploitation and often raises the priority of patching.</text>
 </svg>

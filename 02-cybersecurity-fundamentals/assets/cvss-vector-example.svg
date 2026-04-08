@@ -41,9 +41,10 @@
 
   <rect x="816" y="352" width="300" height="140" rx="18" fill="#221d60" stroke="#6fd3ff" stroke-width="2"/>
   <text x="842" y="382" class="token">PR:L</text>
-  <text x="842" y="417" class="label">Privileges Required</text>
-  <text x="842" y="447" class="small">Low privileges are</text>
-  <text x="842" y="474" class="small">enough.</text>
+  <text x="842" y="417" class="label">Privileges</text>
+  <text x="842" y="441" class="label">Required</text>
+  <text x="842" y="472" class="small">Low privileges are</text>
+  <text x="842" y="499" class="small">enough.</text>
 
   <rect x="220" y="530" width="320" height="140" rx="18" fill="#221d60" stroke="#5ee89a" stroke-width="2"/>
   <text x="246" y="560" class="token">UI:N</text>
@@ -59,5 +60,6 @@
 
   <rect x="84" y="710" width="1032" height="78" rx="20" fill="#121034" stroke="url(#accent)" stroke-width="2"/>
   <text x="114" y="744" class="label">Impact Metrics</text>
-  <text x="114" y="748" class="body">C:H / I:H / A:H means high impact on confidentiality, integrity, and availability.</text>
+  <text x="114" y="744" class="body">C:H / I:H / A:H means high impact on confidentiality,</text>
+  <text x="114" y="772" class="body">integrity, and availability.</text>
 </svg>

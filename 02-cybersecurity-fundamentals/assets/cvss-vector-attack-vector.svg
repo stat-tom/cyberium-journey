@@ -12,7 +12,8 @@
   </defs>
   <rect width="1200" height="700" fill="#140f44"/>
   <text x="62" y="98" class="title">Attack Vector (AV): Network</text>
-  <text x="62" y="142" class="subtitle">The vulnerability can be reached remotely across a network connection.</text>
+  <text x="62" y="142" class="subtitle">The vulnerability can be reached remotely</text>
+  <text x="62" y="172" class="subtitle">across a network connection.</text>
   <rect x="62" y="200" width="640" height="152" rx="22" fill="#221d60" stroke="#5b50b5" stroke-width="2"/>
   <text x="98" y="270" class="code">CVSS:3.1/AV:N/AC:L/PR:L/UI:N</text>
   <text x="98" y="304" class="code">S:U/C:H/I:H/A:H</text>
@@ -26,5 +27,6 @@
   <text x="824" y="464" class="body">reachability is enough.</text>
   <rect x="62" y="430" width="640" height="170" rx="22" fill="#1f1a57"/>
   <text x="96" y="488" class="panelTitle">Why it matters</text>
-  <text x="96" y="534" class="body">Network-reachable flaws usually scale better for attackers and can often be exploited against many systems at once.</text>
+  <text x="96" y="534" class="body">Network-reachable flaws usually scale better for attackers</text>
+  <text x="96" y="566" class="body">and can often be exploited against many systems at once.</text>
 </svg>

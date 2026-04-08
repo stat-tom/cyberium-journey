@@ -11,22 +11,29 @@
     </style>
   </defs>
   <rect width="1200" height="940" fill="#150f45"/>
-  <text x="60" y="100" class="title">CVSS v3.1 Component Analysis</text>
+  <text x="60" y="100" class="title">CVSS v3.1 Component</text>
+  <text x="60" y="154" class="title">Analysis</text>
 
   <rect x="60" y="186" width="68" height="68" rx="8" fill="#4d458f"/>
   <text x="84" y="230" class="num">1</text>
-  <text x="162" y="220" class="metric">Attack Vector (AV): Network (N)</text>
-  <text x="162" y="286" class="body">The vulnerability can be exploited remotely across the network.</text>
+  <text x="162" y="220" class="metric">Attack Vector (AV):</text>
+  <text x="162" y="252" class="metric">Network (N)</text>
+  <text x="162" y="304" class="body">The vulnerability can be exploited</text>
+  <text x="162" y="336" class="body">remotely across the network.</text>
 
   <rect x="610" y="186" width="68" height="68" rx="8" fill="#4d458f"/>
   <text x="634" y="230" class="num">2</text>
-  <text x="712" y="220" class="metric">Attack Complexity (AC): Low (L)</text>
-  <text x="712" y="286" class="body">The attack path is simple and can be repeated reliably.</text>
+  <text x="712" y="220" class="metric">Attack Complexity</text>
+  <text x="712" y="252" class="metric">(AC): Low (L)</text>
+  <text x="712" y="304" class="body">The attack path is simple and can</text>
+  <text x="712" y="336" class="body">be repeated reliably.</text>
 
   <rect x="60" y="420" width="68" height="68" rx="8" fill="#4d458f"/>
   <text x="84" y="464" class="num">3</text>
-  <text x="162" y="454" class="metric">Privileges Required (PR): None (N)</text>
-  <text x="162" y="520" class="body">No existing account or permissions are required to begin the attack.</text>
+  <text x="162" y="454" class="metric">Privileges Required</text>
+  <text x="162" y="486" class="metric">(PR): None (N)</text>
+  <text x="162" y="538" class="body">No existing account or permissions</text>
+  <text x="162" y="570" class="body">are required to begin the attack.</text>
 
   <rect x="60" y="666" width="1080" height="180" rx="10" fill="#4a4677"/>
   <text x="94" y="738" class="metric">Attack Vector String</text>

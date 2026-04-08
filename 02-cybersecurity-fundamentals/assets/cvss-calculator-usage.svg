@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="920" viewBox="0 0 1200 920" role="img" aria-labelledby="title desc">
+  <title id="title">Using the CVSS calculator</title>
+  <desc id="desc">A visual guide to using the NIST CVSS calculator and understanding base and additional metrics.</desc>
+  <defs>
+    <style>
+      .title { fill: #ffffff; font: 700 50px 'Segoe UI', Arial, sans-serif; }
+      .cardTitle { fill: #ffffff; font: 700 24px 'Segoe UI', Arial, sans-serif; }
+      .body { fill: #d7daf5; font: 400 22px 'Segoe UI', Arial, sans-serif; }
+      .url { fill: #1a1c33; font: 700 20px 'Segoe UI', Arial, sans-serif; }
+    </style>
+  </defs>
+  <rect width="1200" height="920" fill="#150f45"/>
+  <text x="60" y="90" class="title">Using the CVSS Calculator</text>
+
+  <rect x="60" y="160" width="340" height="240" rx="8" fill="#294866"/>
+  <rect x="94" y="194" width="180" height="110" rx="6" fill="#d8dde8"/>
+  <rect x="284" y="218" width="74" height="136" rx="8" fill="#c7cedc"/>
+  <rect x="110" y="214" width="148" height="74" rx="4" fill="#8fa3bf"/>
+  <rect x="126" y="228" width="116" height="18" rx="3" fill="#6d819d"/>
+  <rect x="126" y="254" width="40" height="22" rx="3" fill="#7e8fab"/>
+  <rect x="174" y="254" width="68" height="22" rx="3" fill="#7e8fab"/>
+  <text x="60" y="470" class="cardTitle">CVSS Calculator</text>
+  <text x="60" y="530" class="body">Score a vulnerability with the</text>
+  <text x="60" y="562" class="body">NIST calculator.</text>
+
+  <rect x="430" y="160" width="340" height="240" rx="8" fill="#6a5534"/>
+  <rect x="500" y="210" width="200" height="120" rx="8" fill="#2e405f"/>
+  <rect x="520" y="232" width="160" height="16" rx="3" fill="#8aa5cf"/>
+  <rect x="520" y="258" width="120" height="12" rx="3" fill="#728cb4"/>
+  <rect x="520" y="280" width="150" height="12" rx="3" fill="#728cb4"/>
+  <text x="430" y="470" class="cardTitle">Base Metrics</text>
+  <text x="430" y="530" class="body">Enter the core attributes</text>
+  <text x="430" y="562" class="body">of the vulnerability.</text>
+
+  <rect x="800" y="160" width="340" height="240" rx="8" fill="#2d2f78"/>
+  <rect x="850" y="216" width="28" height="90" fill="#6bd3f6"/>
+  <rect x="892" y="248" width="28" height="58" fill="#9c84ff"/>
+  <rect x="934" y="224" width="28" height="82" fill="#55c0e3"/>
+  <rect x="976" y="202" width="28" height="104" fill="#d66dff"/>
+  <rect x="1018" y="176" width="28" height="130" fill="#63e5d8"/>
+  <path d="M834 320 C900 260, 950 340, 1058 208" stroke="#8f7cff" stroke-width="5" fill="none"/>
+  <text x="800" y="470" class="cardTitle">Additional Metrics</text>
+  <text x="800" y="530" class="body">Adjust the score for the</text>
+  <text x="800" y="562" class="body">environment and patch status.</text>
+
+  <rect x="220" y="742" width="760" height="108" rx="54" fill="#f5f5f8" stroke="#ffffff" stroke-width="8"/>
+  <text x="282" y="795" class="url">https://nvd.nist.gov/vuln-metrics/</text>
+  <text x="282" y="823" class="url">cvss/v3-calculator</text>
+  <circle cx="930" cy="796" r="38" fill="#2670b8"/>
+  <circle cx="922" cy="788" r="12" fill="none" stroke="#ffffff" stroke-width="3"/>
+  <path d="M930 796 L944 810" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+</svg>
