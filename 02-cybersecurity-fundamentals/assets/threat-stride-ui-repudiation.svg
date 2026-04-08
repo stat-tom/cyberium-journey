@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="920" viewBox="0 0 820 920" role="img" aria-labelledby="title desc">
+  <title id="title">Repudiation in a user interface</title>
+  <desc id="desc">Repudiation risks in a user interface: denied actions, weak logging, and audit protection.</desc>
+  <defs>
+    <style>
+      .title { fill: #ffffff; font: 700 42px 'Segoe UI', Arial, sans-serif; }
+      .heading { fill: #dfe2ff; font: 700 22px 'Segoe UI', Arial, sans-serif; }
+      .body { fill: #d7daf5; font: 400 20px 'Segoe UI', Arial, sans-serif; }
+      .icon { fill: none; stroke: #ff5f7f; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect width="820" height="920" fill="#150f45"/>
+  <text x="28" y="66" class="title">Repudiation</text>
+
+  <circle cx="60" cy="154" r="16" class="icon"/>
+  <path d="M38 196 C42 174 78 174 82 196" class="icon"/>
+  <text x="28" y="260" class="heading">Action Denial</text>
+  <text x="28" y="314" class="body">A user may deny performing an action.</text>
+
+  <path d="M40 418 H72" class="icon"/>
+  <path d="M40 418 L56 402" class="icon"/>
+  <path d="M40 418 L56 434" class="icon"/>
+  <path d="M76 384 H94 A10 10 0 0 1 104 394 V442 A10 10 0 0 1 94 452 H76" class="icon"/>
+  <text x="28" y="536" class="heading">Insufficient Logging</text>
+  <text x="28" y="590" class="body">Weak event recording makes accountability harder to prove.</text>
+
+  <path d="M58 724 C30 710 24 680 30 660 C42 654 54 646 58 644 C62 646 74 654 86 660 C92 680 86 710 58 724 Z" class="icon"/>
+  <text x="28" y="802" class="heading">Protection Against Repudiation</text>
+  <text x="28" y="856" class="body">Important user actions need reliable audit evidence.</text>
+</svg>

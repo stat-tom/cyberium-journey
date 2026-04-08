@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="860" viewBox="0 0 1200 860" role="img" aria-labelledby="title desc">
+  <title id="title">STRIDE analysis for a user interface</title>
+  <desc id="desc">Overview of STRIDE categories for analyzing a user interface.</desc>
+  <defs>
+    <style>
+      .title { fill: #ffffff; font: 700 44px 'Segoe UI', Arial, sans-serif; }
+      .level { fill: #3a356c; }
+      .num { fill: #dfe2ff; font: 700 24px 'Segoe UI', Arial, sans-serif; }
+      .heading { fill: #dfe2ff; font: 700 22px 'Segoe UI', Arial, sans-serif; }
+      .body { fill: #d7daf5; font: 400 20px 'Segoe UI', Arial, sans-serif; }
+      .line { stroke: #564f90; stroke-width: 2; }
+    </style>
+  </defs>
+  <rect width="1200" height="860" fill="#150f45"/>
+  <text x="30" y="72" class="title">Using STRIDE to Analyze a User Interface</text>
+
+  <polygon points="40,760 340,150 640,760" class="level"/>
+  <path d="M120 598 H560" class="line"/>
+  <path d="M180 470 H520" class="line"/>
+  <path d="M242 344 H478" class="line"/>
+  <path d="M292 248 H428" class="line"/>
+  <text x="334" y="244" class="num">1</text>
+  <text x="332" y="340" class="num">2</text>
+  <text x="330" y="466" class="num">3</text>
+  <text x="328" y="594" class="num">4</text>
+  <text x="326" y="704" class="num">5</text>
+
+  <text x="700" y="180" class="heading">Spoofing</text>
+  <text x="700" y="220" class="body">Impersonating another user or identity.</text>
+
+  <text x="700" y="302" class="heading">Tampering</text>
+  <text x="700" y="342" class="body">Changing data or system state in an unauthorized way.</text>
+
+  <text x="700" y="424" class="heading">Repudiation</text>
+  <text x="700" y="464" class="body">Denying actions because evidence is weak or missing.</text>
+
+  <text x="700" y="546" class="heading">Information Disclosure</text>
+  <text x="700" y="586" class="body">Exposing sensitive information to the wrong audience.</text>
+
+  <text x="700" y="668" class="heading">Denial of Service</text>
+  <text x="700" y="708" class="body">Making the service slow, unstable, or unavailable.</text>
+
+  <text x="700" y="790" class="heading">Elevation of Privilege</text>
+  <text x="700" y="830" class="body">Gaining permissions beyond the intended role.</text>
+</svg>

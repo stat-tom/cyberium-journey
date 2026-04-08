@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1140" height="760" viewBox="0 0 1140 760" role="img" aria-labelledby="title desc">
+  <title id="title">Tampering in a user interface</title>
+  <desc id="desc">Examples of tampering risks in a user interface: modified data, weak validation, and integrity gaps.</desc>
+  <defs>
+    <style>
+      .title { fill: #ffffff; font: 700 42px 'Segoe UI', Arial, sans-serif; }
+      .heading { fill: #dfe2ff; font: 700 22px 'Segoe UI', Arial, sans-serif; }
+      .body { fill: #d7daf5; font: 400 21px 'Segoe UI', Arial, sans-serif; }
+    </style>
+  </defs>
+  <rect width="1140" height="760" fill="#150f45"/>
+  <text x="32" y="72" class="title">Tampering</text>
+
+  <rect x="32" y="138" width="340" height="218" rx="8" fill="#1f2455"/>
+  <rect x="76" y="182" width="180" height="28" rx="8" fill="#f6f7fb"/>
+  <rect x="76" y="222" width="180" height="28" rx="8" fill="#f6f7fb"/>
+  <rect x="76" y="262" width="180" height="28" rx="8" fill="#f6f7fb"/>
+  <path d="M68 172 L282 172" stroke="#a352ff" stroke-width="2"/>
+  <path d="M60 304 L286 304" stroke="#ff5f7f" stroke-width="5" stroke-dasharray="10 10"/>
+  <text x="32" y="442" class="heading">Data Manipulation</text>
+  <text x="32" y="500" class="body">Can values sent through the UI</text>
+  <text x="32" y="540" class="body">be altered before processing?</text>
+
+  <rect x="400" y="138" width="340" height="218" rx="8" fill="#222a67"/>
+  <rect x="520" y="186" width="100" height="124" rx="10" fill="#3246a0"/>
+  <path d="M430 248 C500 214 640 214 710 248" stroke="#6fd3ff" stroke-width="6" fill="none"/>
+  <path d="M430 248 C500 282 640 282 710 248" stroke="#ff5f7f" stroke-width="6" fill="none"/>
+  <text x="400" y="442" class="heading">Missing Validation</text>
+  <text x="400" y="500" class="body">A common problem is weak or absent</text>
+  <text x="400" y="540" class="body">validation on the server side.</text>
+
+  <rect x="768" y="138" width="340" height="218" rx="8" fill="#2a2f93"/>
+  <rect x="848" y="196" width="82" height="42" rx="10" fill="#ff5f7f" transform="rotate(-30 889 217)"/>
+  <rect x="922" y="246" width="120" height="52" rx="12" fill="#6fd3ff" transform="rotate(-20 982 272)"/>
+  <path d="M888 244 L930 258" stroke="#dfe2ff" stroke-width="3"/>
+  <path d="M950 240 L966 206" stroke="#dfe2ff" stroke-width="3"/>
+  <text x="768" y="442" class="heading">Integrity Protection</text>
+  <text x="768" y="500" class="body">Weak integrity controls can allow</text>
+  <text x="768" y="540" class="body">unauthorized modification of data.</text>
+</svg>

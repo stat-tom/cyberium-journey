@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1140" height="860" viewBox="0 0 1140 860" role="img" aria-labelledby="title desc">
+  <title id="title">Elevation of privilege in a user interface</title>
+  <desc id="desc">Elevation of privilege risks in a user interface: privilege gain, admin access, and broken authorization.</desc>
+  <defs>
+    <style>
+      .title { fill: #ffffff; font: 700 42px 'Segoe UI', Arial, sans-serif; }
+      .heading { fill: #dfe2ff; font: 700 22px 'Segoe UI', Arial, sans-serif; }
+      .body { fill: #d7daf5; font: 400 21px 'Segoe UI', Arial, sans-serif; }
+    </style>
+  </defs>
+  <rect width="1140" height="860" fill="#150f45"/>
+  <text x="30" y="72" class="title">Elevation of Privilege</text>
+
+  <rect x="30" y="142" width="340" height="230" rx="8" fill="#1d255f"/>
+  <circle cx="200" cy="244" r="64" fill="#2c3e96"/>
+  <rect x="152" y="286" width="96" height="20" rx="10" fill="#101632"/>
+  <path d="M178 206 H224" stroke="#6fd3ff" stroke-width="3"/>
+  <path d="M178 220 H236" stroke="#6fd3ff" stroke-width="3"/>
+  <path d="M178 234 H228" stroke="#6fd3ff" stroke-width="3"/>
+  <text x="30" y="456" class="heading">Privilege Gain</text>
+  <text x="30" y="514" class="body">Could a flaw let a user operate with</text>
+  <text x="30" y="554" class="body">the victim's or an admin's permissions?</text>
+
+  <rect x="400" y="142" width="340" height="230" rx="8" fill="#23245b"/>
+  <rect x="492" y="198" width="156" height="118" rx="12" fill="#2a2f72"/>
+  <path d="M514 212 L626 212" stroke="#ff5f7f" stroke-width="4"/>
+  <path d="M514 230 L626 230" stroke="#ff5f7f" stroke-width="4"/>
+  <path d="M514 248 L612 248" stroke="#ff5f7f" stroke-width="4"/>
+  <path d="M532 292 L608 188" stroke="#ff5f7f" stroke-width="5"/>
+  <text x="400" y="456" class="heading">System Impact</text>
+  <text x="400" y="514" class="body">Can the interface expose privileged</text>
+  <text x="400" y="554" class="body">operations to the wrong role?</text>
+
+  <rect x="770" y="142" width="340" height="230" rx="8" fill="#242d78"/>
+  <rect x="900" y="192" width="76" height="104" rx="12" fill="#7aa7ff"/>
+  <path d="M928 214 C928 198 948 190 960 202 C972 190 992 198 992 214 V234 H928 Z" fill="#150f45"/>
+  <rect x="936" y="234" width="92" height="82" rx="12" fill="#b6d4ff"/>
+  <circle cx="982" cy="272" r="12" fill="#150f45"/>
+  <text x="770" y="456" class="heading">Privilege Escalation</text>
+  <text x="770" y="514" class="body">Broken authorization can let an attacker</text>
+  <text x="770" y="554" class="body">increase permissions through the UI.</text>
+</svg>

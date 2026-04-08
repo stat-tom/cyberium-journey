@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="760" viewBox="0 0 920 760" role="img" aria-labelledby="title desc">
+  <title id="title">Denial of service in a user interface</title>
+  <desc id="desc">Denial of service risks in a user interface: abuse of exposed actions, missing rate limits, and overload protection.</desc>
+  <defs>
+    <style>
+      .title { fill: #ffffff; font: 700 42px 'Segoe UI', Arial, sans-serif; }
+      .numBox { fill: #433d7b; }
+      .num { fill: #ffffff; font: 700 28px 'Segoe UI', Arial, sans-serif; }
+      .heading { fill: #dfe2ff; font: 700 22px 'Segoe UI', Arial, sans-serif; }
+      .body { fill: #d7daf5; font: 400 21px 'Segoe UI', Arial, sans-serif; }
+    </style>
+  </defs>
+  <rect width="920" height="760" fill="#150f45"/>
+  <text x="24" y="68" class="title">Denial of Service</text>
+
+  <rect x="44" y="232" width="64" height="64" rx="4" class="numBox"/>
+  <text x="68" y="274" class="num">1</text>
+  <text x="136" y="262" class="heading">DoS-Susceptible Actions</text>
+  <text x="136" y="322" class="body">Can exposed UI operations be abused</text>
+  <text x="136" y="362" class="body">to trigger a denial-of-service condition?</text>
+
+  <rect x="486" y="232" width="64" height="64" rx="4" class="numBox"/>
+  <text x="510" y="274" class="num">2</text>
+  <text x="578" y="262" class="heading">Missing Limits</text>
+  <text x="578" y="322" class="body">Without request limits, repeated calls</text>
+  <text x="578" y="362" class="body">can overload the system.</text>
+
+  <rect x="44" y="490" width="64" height="64" rx="4" class="numBox"/>
+  <text x="68" y="532" class="num">3</text>
+  <text x="136" y="520" class="heading">Overload Protection</text>
+  <text x="136" y="580" class="body">Rate limiting and defensive controls are needed</text>
+  <text x="136" y="620" class="body">to keep the service responsive.</text>
+</svg>

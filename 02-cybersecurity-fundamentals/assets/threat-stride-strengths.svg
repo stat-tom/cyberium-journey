@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="580" viewBox="0 0 900 580" role="img" aria-labelledby="title desc">
+  <title id="title">Strengths of STRIDE</title>
+  <desc id="desc">Key strengths of the STRIDE model: systematic analysis, structured thinking, and lower risk of oversight.</desc>
+  <defs>
+    <style>
+      .title { fill: #ffffff; font: 700 44px 'Segoe UI', Arial, sans-serif; }
+      .card { fill: #3a356c; }
+      .heading { fill: #dfe2ff; font: 700 22px 'Segoe UI', Arial, sans-serif; }
+      .body { fill: #d7daf5; font: 400 21px 'Segoe UI', Arial, sans-serif; }
+    </style>
+  </defs>
+  <rect width="900" height="580" fill="#150f45"/>
+  <text x="18" y="68" class="title">Strengths of STRIDE</text>
+
+  <rect x="18" y="124" width="420" height="248" rx="10" class="card"/>
+  <text x="48" y="180" class="heading">Systematic Analysis</text>
+  <text x="48" y="242" class="body">Supports a broad and structured</text>
+  <text x="48" y="282" class="body">review of security concerns.</text>
+
+  <rect x="462" y="124" width="420" height="248" rx="10" class="card"/>
+  <text x="492" y="180" class="heading">Methodical Approach</text>
+  <text x="492" y="242" class="body">Considers each threat category</text>
+  <text x="492" y="282" class="body">for each relevant element.</text>
+
+  <rect x="18" y="402" width="864" height="160" rx="10" class="card"/>
+  <text x="48" y="462" class="heading">Reduced Risk of Oversight</text>
+  <text x="48" y="522" class="body">Helps teams avoid overlooking important weaknesses.</text>
+</svg>

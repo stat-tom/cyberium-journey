@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1520" height="360" viewBox="0 0 1520 360" role="img" aria-labelledby="title desc">
+  <title id="title">Limitations of STRIDE</title>
+  <desc id="desc">Key limitations of STRIDE: generality, flexibility, and the need for supporting technical knowledge.</desc>
+  <defs>
+    <style>
+      .title { fill: #ffffff; font: 700 44px 'Segoe UI', Arial, sans-serif; }
+      .heading { fill: #ffffff; font: 700 24px 'Segoe UI', Arial, sans-serif; }
+      .body { fill: #d7daf5; font: 400 24px 'Segoe UI', Arial, sans-serif; }
+    </style>
+  </defs>
+  <rect width="1520" height="360" fill="#150f45"/>
+  <text x="18" y="68" class="title">Limitations of STRIDE</text>
+
+  <text x="18" y="182" class="heading">General Model</text>
+  <text x="18" y="246" class="body">STRIDE is broad and does not include detailed implementation guidance.</text>
+
+  <text x="532" y="182" class="heading">Flexible Interpretation</text>
+  <text x="532" y="246" class="body">It leaves room for judgment, which can be useful but also uneven.</text>
+
+  <text x="1046" y="182" class="heading">Needs Technical Context</text>
+  <text x="1046" y="246" class="body">Teams still need technology-specific knowledge to apply it well.</text>
+</svg>

@@ -66,6 +66,78 @@
 - Attack trees: visual breakdowns of how an attacker might achieve a goal.
 - Abuse cases: scenarios that describe how a feature can be misused.
 
+## Using STRIDE to Analyze a User Interface
+
+![STRIDE analysis for a user interface](./assets/threat-stride-ui-overview.svg)
+
+- STRIDE is useful when reviewing user interfaces because many attack paths start with forms, workflows, exposed actions, or visible data.
+- A UI-focused STRIDE review asks how a user-facing feature could be impersonated, manipulated, denied, abused, overloaded, or used to gain extra privileges.
+- This does not replace server-side analysis, but it helps the team spot risky entry points earlier.
+
+### Spoofing in the User Interface
+
+![Spoofing in a user interface](./assets/threat-stride-ui-spoofing.svg)
+
+- Ask whether an attacker can pretend to be another user through the interface.
+- Weak authentication, weak session handling, or poor identity checks can make spoofing easier.
+- Login, password reset, and account recovery flows deserve special attention.
+
+### Tampering in the User Interface
+
+![Tampering in a user interface](./assets/threat-stride-ui-tampering.svg)
+
+- Ask whether values submitted through the interface can be modified in unintended ways.
+- Server-side validation is critical because client-side controls alone do not stop tampering.
+- Sensitive actions should also verify integrity, allowed state transitions, and authorization.
+
+### Repudiation in the User Interface
+
+![Repudiation in a user interface](./assets/threat-stride-ui-repudiation.svg)
+
+- Ask whether a user can deny performing an action because the system cannot prove what happened.
+- Missing logs, weak audit trails, or poor event attribution make repudiation harder to investigate.
+- Important operations should record who acted, what changed, and when it happened.
+
+### Information Disclosure in the User Interface
+
+![Information disclosure in a user interface](./assets/threat-stride-ui-information-disclosure.svg)
+
+- Ask whether the interface exposes sensitive data to the wrong people.
+- Poorly handled errors, excessive detail in the UI, or weak transport protection can leak information.
+- Review what the page reveals before login, after login, and during failure cases.
+
+### Denial of Service in the User Interface
+
+![Denial of service in a user interface](./assets/threat-stride-ui-denial-of-service.svg)
+
+- Ask whether visible UI actions can be abused to overwhelm the system.
+- Missing rate limits, expensive searches, or unbounded upload and form processing can enable denial-of-service conditions.
+- Controls such as throttling, quotas, caching, and graceful degradation reduce this risk.
+
+### Elevation of Privilege in the User Interface
+
+![Elevation of privilege in a user interface](./assets/threat-stride-ui-elevation-of-privilege.svg)
+
+- Ask whether a lower-privileged user can reach actions or data meant for higher-privileged roles.
+- Broken authorization, unsafe admin flows, and client-controlled role checks are common causes.
+- Every privileged action should be enforced on the server, even if the UI hides the control.
+
+## Strengths of STRIDE
+
+![Strengths of STRIDE](./assets/threat-stride-strengths.svg)
+
+- STRIDE gives teams a systematic way to review common categories of threats.
+- Its structured approach reduces the chance that important areas are skipped during analysis.
+- It is especially useful for workshops because it gives people a shared vocabulary for discussing risk.
+
+## Limitations of STRIDE
+
+![Limitations of STRIDE](./assets/threat-stride-limitations.svg)
+
+- STRIDE is a general model, so it does not automatically provide deep, technology-specific guidance.
+- Teams still need technical knowledge of the application, platform, and architecture to use it well.
+- It works best as a framework for thinking, not as a substitute for secure design review, testing, or operational context.
+
 ## Four Key Questions
 
 ![Four key questions in threat modeling](./assets/threat-four-key-questions.svg)
