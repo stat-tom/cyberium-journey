@@ -4,22 +4,30 @@
   <defs>
     <style>
       .title { fill: #ffffff; font: 700 44px 'Segoe UI', Arial, sans-serif; }
+      .card { fill: #221d60; }
       .heading { fill: #ffffff; font: 700 22px 'Segoe UI', Arial, sans-serif; }
-      .body { fill: #d7daf5; font: 400 22px 'Segoe UI', Arial, sans-serif; }
+      .body { fill: #d7daf5; font: 400 20px 'Segoe UI', Arial, sans-serif; }
     </style>
   </defs>
   <rect width="1200" height="420" fill="#150f45"/>
   <text x="40" y="74" class="title">Definition of a Threat</text>
 
-  <text x="40" y="176" class="heading">What Is a Threat?</text>
-  <text x="40" y="240" class="body">A potential event in which a vulnerability may be</text>
-  <text x="40" y="282" class="body">exploited to cause damage.</text>
+  <rect x="40" y="126" width="346" height="226" rx="14" class="card"/>
+  <rect x="426" y="126" width="346" height="226" rx="14" class="card"/>
+  <rect x="812" y="126" width="346" height="226" rx="14" class="card"/>
 
-  <text x="440" y="176" class="heading">Examples of Threats</text>
-  <text x="440" y="240" class="body">Unauthorized access, data theft, DDoS attacks,</text>
-  <text x="440" y="282" class="body">and malware infections.</text>
+  <text x="68" y="184" class="heading">What Is a Threat?</text>
+  <text x="68" y="238" class="body">A potential event in which a</text>
+  <text x="68" y="274" class="body">vulnerability may be exploited</text>
+  <text x="68" y="310" class="body">to cause damage.</text>
 
-  <text x="870" y="176" class="heading">Sources of Threats</text>
-  <text x="870" y="240" class="body">Threats can originate from outside</text>
-  <text x="870" y="282" class="body">or inside the organization.</text>
+  <text x="454" y="184" class="heading">Examples of Threats</text>
+  <text x="454" y="238" class="body">Unauthorized access, data theft,</text>
+  <text x="454" y="274" class="body">DDoS attacks, and malware</text>
+  <text x="454" y="310" class="body">infections.</text>
+
+  <text x="840" y="184" class="heading">Sources of Threats</text>
+  <text x="840" y="238" class="body">Threats can originate from</text>
+  <text x="840" y="274" class="body">outside or inside the</text>
+  <text x="840" y="310" class="body">organization.</text>
 </svg>

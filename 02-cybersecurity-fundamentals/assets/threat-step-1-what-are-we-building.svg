@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="660" viewBox="0 0 920 660" role="img" aria-labelledby="title desc">
+  <title id="title">Step 1: What are we building?</title>
+  <desc id="desc">Threat modeling step one focuses on decomposing the application, understanding the system, and analyzing components.</desc>
+  <defs>
+    <style>
+      .title { fill: #ffffff; font: 700 42px 'Segoe UI', Arial, sans-serif; }
+      .card { fill: #3a356c; }
+      .heading { fill: #dfe2ff; font: 700 24px 'Segoe UI', Arial, sans-serif; }
+      .body { fill: #d7daf5; font: 400 21px 'Segoe UI', Arial, sans-serif; }
+    </style>
+  </defs>
+  <rect width="920" height="660" fill="#150f45"/>
+  <text x="24" y="74" class="title">Step 1: What Are We Building?</text>
+
+  <rect x="24" y="146" width="422" height="248" rx="10" class="card"/>
+  <text x="54" y="206" class="heading">Application Decomposition</text>
+  <text x="54" y="268" class="body">Break the system into smaller parts</text>
+  <text x="54" y="308" class="body">that are easier to analyze.</text>
+
+  <rect x="474" y="146" width="422" height="248" rx="10" class="card"/>
+  <text x="504" y="206" class="heading">System Understanding</text>
+  <text x="504" y="268" class="body">Learn the components, functions,</text>
+  <text x="504" y="308" class="body">data flows, and trust boundaries.</text>
+
+  <rect x="24" y="426" width="872" height="202" rx="10" class="card"/>
+  <text x="54" y="488" class="heading">Component Analysis</text>
+  <text x="54" y="550" class="body">Examine each part of the system separately to understand it better.</text>
+</svg>

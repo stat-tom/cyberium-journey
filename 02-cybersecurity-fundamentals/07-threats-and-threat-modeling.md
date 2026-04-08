@@ -75,6 +75,22 @@
 - What are we going to do about it?
 - Did we do a good enough job?
 
+## Step 1: What Are We Building?
+
+![Step 1 in threat modeling](./assets/threat-step-1-what-are-we-building.svg)
+
+- Start by decomposing the application into smaller parts that are easier to reason about.
+- Build a clear understanding of components, functions, data flows, and trust boundaries.
+- Review each component separately so the team understands the system before listing threats.
+
+## Step 2: What Can Go Wrong?
+
+![Step 2 in threat modeling](./assets/threat-step-2-what-can-go-wrong.svg)
+
+- Identify threats for each part of the system instead of thinking only at a high level.
+- Use a framework such as STRIDE to avoid missing common categories of abuse.
+- Discuss the threats as a team so different people can challenge assumptions and add scenarios.
+
 ## Practical References
 
 ![OWASP cheat sheets](./assets/threat-owasp-cheat-sheets.svg)

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Step 2: What can go wrong?</title>
+  <desc id="desc">Threat modeling step two focuses on identifying threats, using STRIDE, and discussing scenarios as a team.</desc>
+  <defs>
+    <style>
+      .title { fill: #ffffff; font: 700 46px 'Segoe UI', Arial, sans-serif; }
+      .cardTitle { fill: #ffffff; font: 700 24px 'Segoe UI', Arial, sans-serif; }
+      .body { fill: #d7daf5; font: 400 22px 'Segoe UI', Arial, sans-serif; }
+      .panel { fill: #221d60; }
+      .imgA { fill: #f5f5f8; }
+      .imgB { fill: #30297c; }
+      .imgC { fill: #24385f; }
+      .accent { fill: none; stroke: #ff5f7f; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+      .small { fill: #dfe2ff; font: 700 11px 'Segoe UI', Arial, sans-serif; }
+    </style>
+  </defs>
+  <rect width="1200" height="720" fill="#150f45"/>
+  <text x="28" y="82" class="title">Step 2: What Can Go Wrong?</text>
+
+  <rect x="28" y="148" width="338" height="418" rx="12" fill="none"/>
+  <rect x="28" y="148" width="338" height="210" rx="6" class="imgA"/>
+  <circle cx="112" cy="212" r="18" fill="none" stroke="#74d18a" stroke-width="3"/>
+  <text x="103" y="218" fill="#74d18a" font-family="Segoe UI, Arial, sans-serif" font-size="24">?</text>
+  <circle cx="160" cy="188" r="18" fill="none" stroke="#ff86c2" stroke-width="3"/>
+  <text x="151" y="194" fill="#ff86c2" font-family="Segoe UI, Arial, sans-serif" font-size="24">?</text>
+  <circle cx="214" cy="222" r="18" fill="none" stroke="#7fb7ff" stroke-width="3"/>
+  <text x="205" y="228" fill="#7fb7ff" font-family="Segoe UI, Arial, sans-serif" font-size="24">?</text>
+  <path d="M122 310 C150 252 196 244 230 276" stroke="#38a0ff" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <text x="28" y="428" class="cardTitle">Threat Identification</text>
+  <text x="28" y="484" class="body">Consider potential problems for each</text>
+  <text x="28" y="524" class="body">part of the system.</text>
+
+  <rect x="430" y="148" width="338" height="418" rx="12" fill="none"/>
+  <rect x="430" y="148" width="338" height="210" rx="6" class="imgB"/>
+  <circle cx="599" cy="254" r="46" fill="#3d358f" stroke="#ff6a9b" stroke-width="3"/>
+  <text x="566" y="262" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">STRIDE</text>
+  <circle cx="519" cy="214" r="30" fill="none" stroke="#7ab6ff" stroke-width="2"/>
+  <circle cx="519" cy="294" r="30" fill="none" stroke="#7ab6ff" stroke-width="2"/>
+  <circle cx="679" cy="214" r="30" fill="none" stroke="#ff7fc8" stroke-width="2"/>
+  <circle cx="679" cy="294" r="30" fill="none" stroke="#ff7fc8" stroke-width="2"/>
+  <circle cx="599" cy="174" r="30" fill="none" stroke="#9ea4ff" stroke-width="2"/>
+  <circle cx="599" cy="334" r="30" fill="none" stroke="#9ea4ff" stroke-width="2"/>
+  <text x="497" y="218" class="small">SPOOFING</text>
+  <text x="494" y="298" class="small">REPUDIATION</text>
+  <text x="653" y="218" class="small">TAMPERING</text>
+  <text x="648" y="298" class="small">DISCLOSURE</text>
+  <text x="575" y="178" class="small">DOS</text>
+  <text x="549" y="338" class="small">PRIVILEGE</text>
+  <text x="430" y="428" class="cardTitle">STRIDE Model</text>
+  <text x="430" y="484" class="body">Use a structured way to review</text>
+  <text x="430" y="524" class="body">common categories of threats.</text>
+
+  <rect x="832" y="148" width="338" height="418" rx="12" fill="none"/>
+  <rect x="832" y="148" width="338" height="210" rx="6" class="imgC"/>
+  <circle cx="908" cy="220" r="24" fill="#c98c47"/>
+  <circle cx="972" cy="220" r="24" fill="#7c5a3f"/>
+  <circle cx="1036" cy="232" r="24" fill="#d8ad92"/>
+  <circle cx="1100" cy="208" r="24" fill="#7797c8"/>
+  <rect x="894" y="254" width="178" height="50" rx="8" fill="#1b2040"/>
+  <path d="M980 254 L980 304" class="accent"/>
+  <path d="M924 274 L954 274" class="accent"/>
+  <path d="M1004 284 L1048 268" class="accent"/>
+  <text x="832" y="428" class="cardTitle">Team Review</text>
+  <text x="832" y="484" class="body">Identify and discuss possible threats</text>
+  <text x="832" y="524" class="body">together as a group.</text>
+</svg>
