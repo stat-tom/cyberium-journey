@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Changed scope in CVSS</title>
+  <desc id="desc">Explanation of the Changed scope metric for the GitLab vulnerability example.</desc>
+  <defs>
+    <style>
+      .title { fill: #ffffff; font: 700 48px 'Segoe UI', Arial, sans-serif; }
+      .sub { fill: #ffffff; font: 700 30px 'Segoe UI', Arial, sans-serif; }
+      .body { fill: #d7daf5; font: 400 24px 'Segoe UI', Arial, sans-serif; }
+    </style>
+  </defs>
+  <rect width="1200" height="520" fill="#150f45"/>
+  <text x="60" y="98" class="title">Scope (S): Changed (C)</text>
+  <text x="60" y="212" class="sub">Description</text>
+  <text x="60" y="278" class="body">Exploiting the vulnerability can affect components beyond the original</text>
+  <text x="60" y="316" class="body">target of the attack.</text>
+  <text x="650" y="212" class="sub">Meaning</text>
+  <text x="650" y="278" class="body">The compromise can spread past the attacked component and potentially</text>
+  <text x="650" y="316" class="body">impact the wider application or connected systems.</text>
+</svg>

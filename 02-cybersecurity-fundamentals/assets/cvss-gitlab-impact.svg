@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1120" viewBox="0 0 1200 1120" role="img" aria-labelledby="title desc">
+  <title id="title">GitLab impact and implications</title>
+  <desc id="desc">Impact and summary of the GitLab CVE-2021-22205 example.</desc>
+  <defs>
+    <style>
+      .title { fill: #ffffff; font: 700 48px 'Segoe UI', Arial, sans-serif; }
+      .body { fill: #d7daf5; font: 400 24px 'Segoe UI', Arial, sans-serif; }
+      .cardTitle { fill: #ffffff; font: 700 24px 'Segoe UI', Arial, sans-serif; }
+    </style>
+  </defs>
+  <rect width="1200" height="1120" fill="#150f45"/>
+  <text x="60" y="100" class="title">Impact on Integrity and Availability</text>
+
+  <rect x="60" y="188" width="490" height="320" rx="10" fill="#2b2357"/>
+  <rect x="88" y="224" width="434" height="170" rx="8" fill="#5b2a84"/>
+  <path d="M130 330 L196 260 L230 294 L280 244 L350 314 L412 266 L468 320" stroke="#ff7af0" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <text x="88" y="576" class="cardTitle">High Impact on Integrity</text>
+  <text x="88" y="632" class="body">An attacker can modify or delete</text>
+  <text x="88" y="670" class="body">critical project or system data.</text>
+
+  <rect x="610" y="188" width="530" height="320" rx="10" fill="#2b2357"/>
+  <rect x="638" y="224" width="474" height="170" rx="8" fill="#1f305f"/>
+  <rect x="746" y="256" width="220" height="110" rx="10" fill="#313c7a" stroke="#5ee0ff" stroke-width="4"/>
+  <path d="M788 260 L924 356" stroke="#ff4d6d" stroke-width="8"/>
+  <path d="M924 260 L788 356" stroke="#ff4d6d" stroke-width="8"/>
+  <text x="806" y="320" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">GitLab</text>
+  <text x="638" y="576" class="cardTitle">High Impact on Availability</text>
+  <text x="638" y="632" class="body">An attacker can heavily disrupt or</text>
+  <text x="638" y="670" class="body">fully stop GitLab services.</text>
+
+  <text x="60" y="800" class="title">Analysis and Implications</text>
+  <rect x="60" y="868" width="490" height="190" rx="10" fill="#3d396d"/>
+  <text x="94" y="932" class="cardTitle">Highest Severity</text>
+  <text x="94" y="990" class="body">A score of 10.0 means the issue sits</text>
+  <text x="94" y="1028" class="body">at the critical end of the scale.</text>
+
+  <rect x="590" y="868" width="550" height="190" rx="10" fill="#3d396d"/>
+  <text x="624" y="932" class="cardTitle">Easy to Exploit</text>
+  <text x="624" y="990" class="body">No privileges, low complexity, and</text>
+  <text x="624" y="1028" class="body">no user interaction make exploitation easier.</text>
+</svg>

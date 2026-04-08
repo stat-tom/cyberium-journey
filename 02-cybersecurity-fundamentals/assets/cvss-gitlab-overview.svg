@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">GitLab vulnerability overview</title>
+  <desc id="desc">Overview of CVE-2021-22205 with critical severity, remote code execution, and the CVSS vector.</desc>
+  <defs>
+    <style>
+      .title { fill: #ffffff; font: 700 48px 'Segoe UI', Arial, sans-serif; }
+      .body { fill: #d7daf5; font: 400 24px 'Segoe UI', Arial, sans-serif; }
+      .cardTitle { fill: #ffffff; font: 700 24px 'Segoe UI', Arial, sans-serif; }
+      .vector { fill: #f4f5fb; font: 700 28px 'Consolas', 'Courier New', monospace; }
+      .url { fill: #1a1c33; font: 400 24px 'Segoe UI', Arial, sans-serif; }
+    </style>
+  </defs>
+  <rect width="1200" height="760" fill="#150f45"/>
+  <rect x="56" y="30" width="1088" height="104" rx="52" fill="#f5f5f8" stroke="#ffffff" stroke-width="8"/>
+  <text x="110" y="94" class="url">https://nvd.nist.gov/vuln/detail/CVE-2021-22205</text>
+  <circle cx="1080" cy="82" r="40" fill="#2670b8"/>
+  <circle cx="1072" cy="74" r="12" fill="none" stroke="#ffffff" stroke-width="3"/>
+  <path d="M1080 82 L1094 96" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+
+  <text x="60" y="220" class="title">GitLab Vulnerability Overview</text>
+
+  <rect x="60" y="302" width="490" height="215" rx="10" fill="#3d396d"/>
+  <text x="94" y="366" class="cardTitle">Critical Severity</text>
+  <text x="94" y="432" class="body">GitLab rated this vulnerability</text>
+  <text x="94" y="470" class="body">10.0 in CVSS v3.1, which is</text>
+  <text x="94" y="508" class="body">the highest severity level.</text>
+
+  <rect x="590" y="302" width="550" height="215" rx="10" fill="#3d396d"/>
+  <text x="624" y="366" class="cardTitle">Remote Code Execution</text>
+  <text x="624" y="432" class="body">Improper validation in an image</text>
+  <text x="624" y="470" class="body">file parsing path could let an</text>
+  <text x="624" y="508" class="body">attacker execute code remotely.</text>
+
+  <rect x="60" y="554" width="1080" height="150" rx="10" fill="#3d396d"/>
+  <text x="94" y="618" class="cardTitle">Attack Vector String</text>
+  <text x="94" y="674" class="vector">CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H</text>
+</svg>

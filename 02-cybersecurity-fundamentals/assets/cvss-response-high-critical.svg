@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1180" viewBox="0 0 1200 1180" role="img" aria-labelledby="title desc">
+  <title id="title">Responding to high and critical vulnerabilities</title>
+  <desc id="desc">Three key actions after identifying a high or critical vulnerability: patching, reconfiguration, and rescanning.</desc>
+  <defs>
+    <style>
+      .title { fill: #ffffff; font: 700 52px 'Segoe UI', Arial, sans-serif; }
+      .cardTitle { fill: #ffffff; font: 700 26px 'Segoe UI', Arial, sans-serif; }
+      .body { fill: #d7daf5; font: 400 24px 'Segoe UI', Arial, sans-serif; }
+      .icon { fill: none; stroke: #ff5f7f; stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect width="1200" height="1180" fill="#150f45"/>
+  <text x="60" y="100" class="title">Responding to High and Critical Vulnerabilities</text>
+
+  <g transform="translate(60, 190)">
+    <rect x="0" y="0" width="70" height="70" rx="12" class="icon"/>
+    <path d="M22 48 L48 22" class="icon"/>
+    <path d="M41 22 L48 29" class="icon"/>
+    <path d="M22 48 L29 55" class="icon"/>
+  </g>
+  <text x="60" y="338" class="cardTitle">Patching</text>
+  <text x="60" y="398" class="body">Install the recommended security updates as quickly as possible.</text>
+
+  <g transform="translate(60, 520)">
+    <path d="M8 56 L40 8 L62 26 L30 74 Z" class="icon"/>
+    <circle cx="34" cy="42" r="8" class="icon"/>
+    <path d="M56 20 L70 6" class="icon"/>
+  </g>
+  <text x="60" y="668" class="cardTitle">Reconfiguration</text>
+  <text x="60" y="728" class="body">Adjust system settings or controls to apply compensating protections.</text>
+
+  <g transform="translate(60, 850)">
+    <rect x="6" y="10" width="44" height="60" rx="8" class="icon"/>
+    <rect x="18" y="22" width="44" height="60" rx="8" class="icon"/>
+    <path d="M70 18 L70 44" class="icon"/>
+    <path d="M84 8 L84 34" class="icon"/>
+  </g>
+  <text x="60" y="998" class="cardTitle">Rescanning</text>
+  <text x="60" y="1058" class="body">Verify that the fix works and confirm the vulnerability is no longer present.</text>
+</svg>

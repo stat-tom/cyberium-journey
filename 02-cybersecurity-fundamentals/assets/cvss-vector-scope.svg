@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">CVSS Scope explained</title>
+  <desc id="desc">A focused diagram explaining the Scope metric in a CVSS vector string.</desc>
+  <defs>
+    <style>
+      .title { fill: #ffffff; font: 700 46px 'Segoe UI', Arial, sans-serif; }
+      .subtitle { fill: #d4d8f3; font: 400 24px 'Segoe UI', Arial, sans-serif; }
+      .panelTitle { fill: #ffffff; font: 700 28px 'Segoe UI', Arial, sans-serif; }
+      .body { fill: #d7daf5; font: 400 24px 'Segoe UI', Arial, sans-serif; }
+      .code { fill: #11142f; font: 700 28px 'Consolas', 'Courier New', monospace; }
+    </style>
+  </defs>
+  <rect width="1200" height="700" fill="#140f44"/>
+  <text x="62" y="98" class="title">Scope (S): Unchanged</text>
+  <text x="62" y="142" class="subtitle">Exploitation impacts the same security boundary as the vulnerable component itself.</text>
+  <rect x="62" y="200" width="640" height="152" rx="22" fill="#f2f3f8"/>
+  <text x="98" y="286" class="code">CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H</text>
+  <path d="M 698 352 L 698 430 L 846 430" fill="none" stroke="#ff5f5f" stroke-width="8" stroke-linecap="round"/>
+  <polygon points="846,430 812,412 812,448" fill="#ff5f5f"/>
+  <rect x="790" y="234" width="336" height="254" rx="24" fill="#2f2a68"/>
+  <text x="824" y="288" class="panelTitle">S:U means:</text>
+  <text x="824" y="336" class="body">The compromise does not escape</text>
+  <text x="824" y="372" class="body">into a different trust boundary.</text>
+  <text x="824" y="428" class="body">The vulnerable component and the</text>
+  <text x="824" y="464" class="body">impacted component are the same.</text>
+  <rect x="62" y="430" width="640" height="170" rx="22" fill="#1f1a57"/>
+  <text x="96" y="488" class="panelTitle">Why it matters</text>
+  <text x="96" y="534" class="body">If scope changes, the attack crosses boundaries and the score may increase because more systems or privileges are affected.</text>
+</svg>
