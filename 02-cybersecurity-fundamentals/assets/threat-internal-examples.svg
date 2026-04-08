@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Internal threats</title>
+  <desc id="desc">Examples of internal threats including disgruntled employees, unaware users, and contractors.</desc>
+  <defs>
+    <style>
+      .title { fill: #ffffff; font: 700 46px 'Segoe UI', Arial, sans-serif; }
+      .cardTitle { fill: #ffffff; font: 700 22px 'Segoe UI', Arial, sans-serif; }
+      .body { fill: #d7daf5; font: 400 22px 'Segoe UI', Arial, sans-serif; }
+    </style>
+  </defs>
+  <rect width="1200" height="700" fill="#150f45"/>
+  <text x="36" y="84" class="title">Internal Threats</text>
+
+  <rect x="36" y="126" width="408" height="278" rx="12" fill="#3a356c"/>
+  <text x="72" y="208" class="cardTitle">Disgruntled Employees</text>
+  <text x="72" y="270" class="body">May intentionally delete data</text>
+  <text x="72" y="312" class="body">or modify important code.</text>
+
+  <rect x="474" y="126" width="420" height="278" rx="12" fill="#3a356c"/>
+  <text x="510" y="208" class="cardTitle">Unaware Users</text>
+  <text x="510" y="270" class="body">May accidentally install malware</text>
+  <text x="510" y="312" class="body">or expose sensitive data.</text>
+
+  <rect x="36" y="440" width="858" height="198" rx="12" fill="#3a356c"/>
+  <text x="72" y="512" class="cardTitle">Coworkers and Contractors</text>
+  <text x="72" y="582" class="body">They already have legitimate access and may still create risk.</text>
+</svg>

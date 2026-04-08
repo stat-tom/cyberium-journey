@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Introduction to threat modeling</title>
+  <desc id="desc">Three-step introduction to threat modeling: understand threats, assess risk, and take proactive action.</desc>
+  <defs>
+    <style>
+      .title { fill: #ffffff; font: 700 44px 'Segoe UI', Arial, sans-serif; }
+      .heading { fill: #dfe2ff; font: 700 22px 'Segoe UI', Arial, sans-serif; }
+      .body { fill: #d7daf5; font: 400 21px 'Segoe UI', Arial, sans-serif; }
+      .line { stroke: #5b5a93; stroke-width: 3; }
+      .step { fill: #433d7b; }
+      .stepNum { fill: #ffffff; font: 700 30px 'Segoe UI', Arial, sans-serif; }
+    </style>
+  </defs>
+  <rect width="1200" height="760" fill="#150f45"/>
+  <text x="36" y="78" class="title">Introduction to Threat Modeling</text>
+
+  <text x="188" y="176" class="heading">Understand Threats</text>
+  <text x="40" y="228" class="body">Analyze potential threats and weak points in the system.</text>
+
+  <text x="538" y="516" class="heading">Risk Assessment</text>
+  <text x="370" y="568" class="body">Estimate the potential impact on the organization.</text>
+
+  <text x="900" y="176" class="heading">Proactive Action</text>
+  <text x="758" y="228" class="body">Develop a strategy to protect against likely threats.</text>
+
+  <path d="M40 340 H1160" class="line"/>
+  <path d="M320 340 V250" class="line"/>
+  <path d="M620 340 V430" class="line"/>
+  <path d="M930 340 V250" class="line"/>
+  <rect x="292" y="308" width="56" height="56" rx="6" class="step"/>
+  <rect x="592" y="308" width="56" height="56" rx="6" class="step"/>
+  <rect x="902" y="308" width="56" height="56" rx="6" class="step"/>
+  <text x="312" y="347" class="stepNum">1</text>
+  <text x="612" y="347" class="stepNum">2</text>
+  <text x="922" y="347" class="stepNum">3</text>
+
+  <text x="140" y="680" fill="#ffffff" font-family="Consolas, 'Courier New', monospace" font-size="58">Threat modeling_</text>
+</svg>

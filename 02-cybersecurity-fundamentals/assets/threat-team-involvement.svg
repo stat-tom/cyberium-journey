@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1520" height="340" viewBox="0 0 1520 340" role="img" aria-labelledby="title desc">
+  <title id="title">Team involvement in threat modeling</title>
+  <desc id="desc">Benefits of collaboration, multiple perspectives, and focused participation in threat modeling sessions.</desc>
+  <defs>
+    <style>
+      .title { fill: #ffffff; font: 700 44px 'Segoe UI', Arial, sans-serif; }
+      .heading { fill: #ffffff; font: 700 24px 'Segoe UI', Arial, sans-serif; }
+      .body { fill: #d7daf5; font: 400 24px 'Segoe UI', Arial, sans-serif; }
+    </style>
+  </defs>
+  <rect width="1520" height="340" fill="#150f45"/>
+  <text x="28" y="64" class="title">Team Involvement in Threat Modeling</text>
+
+  <text x="28" y="174" class="heading">Collaboration</text>
+  <text x="28" y="238" class="body">Include people from different areas in the session.</text>
+
+  <text x="540" y="174" class="heading">Different Perspectives</text>
+  <text x="540" y="238" class="body">Discuss security issues with a broader group when needed.</text>
+
+  <text x="1048" y="174" class="heading">Efficiency</text>
+  <text x="1048" y="238" class="body">Run a focused session with developers when that is the most practical option.</text>
+</svg>

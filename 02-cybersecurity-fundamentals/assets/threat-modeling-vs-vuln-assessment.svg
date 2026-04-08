@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">Threat modeling versus vulnerability assessment</title>
+  <desc id="desc">Comparison between vulnerability assessment and threat modeling.</desc>
+  <defs>
+    <style>
+      .title { fill: #ffffff; font: 700 42px 'Segoe UI', Arial, sans-serif; }
+      .numBox { fill: #433d7b; }
+      .num { fill: #ffffff; font: 700 28px 'Segoe UI', Arial, sans-serif; }
+      .heading { fill: #dfe2ff; font: 700 22px 'Segoe UI', Arial, sans-serif; }
+      .body { fill: #d7daf5; font: 400 22px 'Segoe UI', Arial, sans-serif; }
+    </style>
+  </defs>
+  <rect width="1200" height="620" fill="#150f45"/>
+  <text x="24" y="72" class="title">Difference Between Threat Modeling</text>
+  <text x="24" y="122" class="title">and Vulnerability Assessment</text>
+
+  <rect x="24" y="210" width="64" height="64" rx="4" class="numBox"/>
+  <text x="48" y="253" class="num">1</text>
+  <text x="118" y="238" class="heading">Vulnerability Assessment</text>
+  <text x="118" y="300" class="body">Scanning systems for known weaknesses.</text>
+
+  <rect x="600" y="210" width="64" height="64" rx="4" class="numBox"/>
+  <text x="624" y="253" class="num">2</text>
+  <text x="694" y="238" class="heading">Threat Modeling</text>
+  <text x="694" y="300" class="body">Analyzing potential threats and defensive options.</text>
+
+  <rect x="24" y="418" width="64" height="64" rx="4" class="numBox"/>
+  <text x="48" y="461" class="num">3</text>
+  <text x="118" y="446" class="heading">Perspective</text>
+  <text x="118" y="508" class="body">Vulnerability assessment is defender-focused, while threat modeling</text>
+  <text x="118" y="548" class="body">examines the system more deliberately from the attacker's perspective.</text>
+</svg>

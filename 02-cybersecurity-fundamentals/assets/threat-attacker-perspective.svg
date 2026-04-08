@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="840" viewBox="0 0 760 840" role="img" aria-labelledby="title desc">
+  <title id="title">The attacker's perspective in threat modeling</title>
+  <desc id="desc">System decomposition, brainstorming, and attacker perspective in threat modeling.</desc>
+  <defs>
+    <style>
+      .title { fill: #ffffff; font: 700 40px 'Segoe UI', Arial, sans-serif; }
+      .heading { fill: #dfe2ff; font: 700 20px 'Segoe UI', Arial, sans-serif; }
+      .body { fill: #d7daf5; font: 400 18px 'Segoe UI', Arial, sans-serif; }
+      .icon { fill: none; stroke: #ff5f7f; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect width="760" height="840" fill="#150f45"/>
+  <text x="28" y="64" class="title">The Attacker's Perspective</text>
+  <text x="28" y="112" class="title">in Threat Modeling</text>
+
+  <circle cx="58" cy="206" r="28" class="icon"/>
+  <circle cx="58" cy="206" r="14" class="icon"/>
+  <circle cx="58" cy="206" r="4" fill="#ff5f7f"/>
+  <text x="28" y="286" class="heading">System Decomposition</text>
+  <text x="28" y="332" class="body">Analyze the application's components for weak points.</text>
+
+  <path d="M34 448 C20 432 22 404 42 398 C46 382 60 374 74 380 C84 368 104 370 112 388 C130 390 138 412 128 426 C140 438 134 460 116 462" class="icon"/>
+  <path d="M74 390 V438" class="icon"/>
+  <text x="28" y="520" class="heading">Brainstorming</text>
+  <text x="28" y="566" class="body">Discuss potential threats relevant to the application.</text>
+
+  <path d="M36 652 L52 668" class="icon"/>
+  <path d="M52 668 L68 684" class="icon"/>
+  <path d="M72 644 L88 660" class="icon"/>
+  <path d="M88 660 L104 676" class="icon"/>
+  <path d="M108 636 L124 652" class="icon"/>
+  <path d="M124 652 L140 668" class="icon"/>
+  <text x="28" y="742" class="heading">Attacker Perspective</text>
+  <text x="28" y="790" class="body">Threat modeling deliberately adopts the attacker's viewpoint.</text>
+</svg>

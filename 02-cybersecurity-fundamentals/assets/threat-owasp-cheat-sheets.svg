@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="340" viewBox="0 0 860 340" role="img" aria-labelledby="title desc">
+  <title id="title">OWASP Cheat Sheets</title>
+  <desc id="desc">Short explanation of the OWASP Cheat Sheets as a practical reference for security work.</desc>
+  <defs>
+    <style>
+      .title { fill: #ffffff; font: 700 40px 'Segoe UI', Arial, sans-serif; }
+      .body { fill: #d7daf5; font: 400 24px 'Segoe UI', Arial, sans-serif; }
+    </style>
+  </defs>
+  <rect width="860" height="340" fill="#150f45"/>
+  <text x="28" y="66" class="title">OWASP Cheat Sheets</text>
+  <text x="28" y="164" class="body">OWASP publishes practical cheat sheets for common security topics.</text>
+  <text x="28" y="246" class="body">They help teams approach security problems in a concise, usable way.</text>
+</svg>

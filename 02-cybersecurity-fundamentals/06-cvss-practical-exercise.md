@@ -1,7 +1,7 @@
 # Lesson 6 - CVSS Practical Exercise
 
 ## Status
-- Not completed
+- Completed
 
 ## Objective
 - Practice reading a vulnerability and translating it into CVSS thinking.

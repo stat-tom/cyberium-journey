@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="980" viewBox="0 0 720 980" role="img" aria-labelledby="title desc">
+  <title id="title">Attacker goals and motivation</title>
+  <desc id="desc">Three ideas in attacker analysis: goals, motivations, and attractive assets.</desc>
+  <defs>
+    <style>
+      .title { fill: #ffffff; font: 700 42px 'Segoe UI', Arial, sans-serif; }
+      .heading { fill: #dfe2ff; font: 700 20px 'Segoe UI', Arial, sans-serif; }
+      .body { fill: #d7daf5; font: 400 20px 'Segoe UI', Arial, sans-serif; }
+      .icon { fill: none; stroke: #ff5f7f; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect width="720" height="980" fill="#150f45"/>
+  <text x="24" y="64" class="title">Attacker Goals and</text>
+  <text x="24" y="116" class="title">Motivation</text>
+
+  <path d="M36 178 L74 216 L36 254" class="icon"/>
+  <path d="M74 178 L36 216 L74 254" class="icon"/>
+  <text x="24" y="332" class="heading">Attacker Goals</text>
+  <text x="24" y="386" class="body">Understand what a potential attacker</text>
+  <text x="24" y="426" class="body">wants to achieve.</text>
+
+  <circle cx="56" cy="528" r="26" class="icon"/>
+  <path d="M74 546 L92 564" class="icon"/>
+  <text x="24" y="642" class="heading">Motivation Analysis</text>
+  <text x="24" y="696" class="body">Determine what could push a person</text>
+  <text x="24" y="736" class="body">or group toward an attack.</text>
+
+  <path d="M56 834 C24 820 18 782 24 760 C40 754 54 744 56 742 C58 744 72 754 88 760 C94 782 88 820 56 834 Z" class="icon"/>
+  <text x="24" y="896" class="heading">Asset Protection</text>
+  <text x="24" y="948" class="body">Identify the most attractive targets</text>
+  <text x="24" y="976" class="body">for an attacker.</text>
+</svg>

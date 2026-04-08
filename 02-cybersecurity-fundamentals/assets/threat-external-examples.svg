@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">External threats</title>
+  <desc id="desc">Examples of external threats: hacking, DDoS, and competitor-sponsored attacks.</desc>
+  <defs>
+    <style>
+      .title { fill: #ffffff; font: 700 46px 'Segoe UI', Arial, sans-serif; }
+      .cardTitle { fill: #ffffff; font: 700 24px 'Segoe UI', Arial, sans-serif; }
+      .body { fill: #d7daf5; font: 400 22px 'Segoe UI', Arial, sans-serif; }
+      .accent { fill: none; stroke: #ff5f7f; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect width="1200" height="720" fill="#150f45"/>
+  <text x="48" y="84" class="title">External Threats</text>
+
+  <rect x="48" y="144" width="328" height="402" rx="18" fill="#211b5a"/>
+  <rect x="48" y="144" width="328" height="206" rx="18" fill="#20366a"/>
+  <path d="M116 306 C130 236 176 196 232 188 C280 182 320 202 344 240" class="accent"/>
+  <circle cx="136" cy="214" r="34" fill="#101632" stroke="#5ee0ff" stroke-width="3"/>
+  <path d="M122 226 L136 212 L152 228" class="accent"/>
+  <text x="48" y="612" class="cardTitle">Hacking Attempt</text>
+  <text x="48" y="666" class="body">Attempt to steal confidential data.</text>
+
+  <rect x="436" y="144" width="328" height="402" rx="18" fill="#211b5a"/>
+  <rect x="436" y="144" width="328" height="206" rx="18" fill="#2a2e73"/>
+  <circle cx="530" cy="246" r="28" fill="#16113d" stroke="#6fd3ff" stroke-width="3"/>
+  <circle cx="606" cy="246" r="28" fill="#16113d" stroke="#6fd3ff" stroke-width="3"/>
+  <circle cx="682" cy="246" r="28" fill="#16113d" stroke="#6fd3ff" stroke-width="3"/>
+  <path d="M530 246 H682" class="accent"/>
+  <text x="436" y="612" class="cardTitle">DDoS Attack</text>
+  <text x="436" y="666" class="body">Disruption of website availability.</text>
+
+  <rect x="824" y="144" width="328" height="402" rx="18" fill="#211b5a"/>
+  <rect x="824" y="144" width="328" height="206" rx="18" fill="#32306f"/>
+  <path d="M904 308 L976 244 L1028 286 L1084 230" class="accent"/>
+  <circle cx="900" cy="308" r="10" fill="#ff5f7f"/>
+  <circle cx="976" cy="244" r="10" fill="#ff5f7f"/>
+  <circle cx="1028" cy="286" r="10" fill="#ff5f7f"/>
+  <circle cx="1084" cy="230" r="10" fill="#ff5f7f"/>
+  <text x="824" y="612" class="cardTitle">Competitor Actions</text>
+  <text x="824" y="654" class="body">Hiring or funding cybercriminals</text>
+  <text x="824" y="692" class="body">to attack a target organization.</text>
+</svg>
