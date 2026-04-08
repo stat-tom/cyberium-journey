@@ -10,31 +10,35 @@
     </style>
   </defs>
   <rect width="1200" height="1180" fill="#150f45"/>
-  <text x="60" y="100" class="title">Responding to High and Critical Vulnerabilities</text>
+  <text x="60" y="92" class="title">Responding to High and</text>
+  <text x="60" y="150" class="title">Critical Vulnerabilities</text>
 
-  <g transform="translate(60, 190)">
+  <rect x="40" y="210" width="1120" height="220" rx="20" fill="#221d60" stroke="#ff5f7f" stroke-width="2"/>
+  <g transform="translate(80, 248)">
     <rect x="0" y="0" width="70" height="70" rx="12" class="icon"/>
     <path d="M22 48 L48 22" class="icon"/>
     <path d="M41 22 L48 29" class="icon"/>
     <path d="M22 48 L29 55" class="icon"/>
   </g>
-  <text x="60" y="338" class="cardTitle">Patching</text>
-  <text x="60" y="398" class="body">Install the recommended security updates as quickly as possible.</text>
+  <text x="80" y="378" class="cardTitle">Patching</text>
+  <text x="80" y="438" class="body">Install the recommended security updates as quickly as possible.</text>
 
-  <g transform="translate(60, 520)">
+  <rect x="40" y="500" width="1120" height="220" rx="20" fill="#221d60" stroke="#ff5f7f" stroke-width="2"/>
+  <g transform="translate(80, 538)">
     <path d="M8 56 L40 8 L62 26 L30 74 Z" class="icon"/>
     <circle cx="34" cy="42" r="8" class="icon"/>
     <path d="M56 20 L70 6" class="icon"/>
   </g>
-  <text x="60" y="668" class="cardTitle">Reconfiguration</text>
-  <text x="60" y="728" class="body">Adjust system settings or controls to apply compensating protections.</text>
+  <text x="80" y="668" class="cardTitle">Reconfiguration</text>
+  <text x="80" y="728" class="body">Adjust system settings or controls to apply compensating protections.</text>
 
-  <g transform="translate(60, 850)">
+  <rect x="40" y="790" width="1120" height="220" rx="20" fill="#221d60" stroke="#ff5f7f" stroke-width="2"/>
+  <g transform="translate(80, 828)">
     <rect x="6" y="10" width="44" height="60" rx="8" class="icon"/>
     <rect x="18" y="22" width="44" height="60" rx="8" class="icon"/>
     <path d="M70 18 L70 44" class="icon"/>
     <path d="M84 8 L84 34" class="icon"/>
   </g>
-  <text x="60" y="998" class="cardTitle">Rescanning</text>
-  <text x="60" y="1058" class="body">Verify that the fix works and confirm the vulnerability is no longer present.</text>
+  <text x="80" y="958" class="cardTitle">Rescanning</text>
+  <text x="80" y="1018" class="body">Verify that the fix works and confirm the vulnerability is no longer present.</text>
 </svg>

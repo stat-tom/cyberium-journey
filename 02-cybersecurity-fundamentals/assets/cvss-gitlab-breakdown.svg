@@ -7,7 +7,7 @@
       .body { fill: #d7daf5; font: 400 24px 'Segoe UI', Arial, sans-serif; }
       .metric { fill: #ffffff; font: 700 22px 'Segoe UI', Arial, sans-serif; }
       .num { fill: #ffffff; font: 700 28px 'Segoe UI', Arial, sans-serif; }
-      .vector { fill: #edf0fa; font: 700 30px 'Consolas', 'Courier New', monospace; }
+      .vector { fill: #edf0fa; font: 700 24px 'Consolas', 'Courier New', monospace; }
     </style>
   </defs>
   <rect width="1200" height="940" fill="#150f45"/>
@@ -30,5 +30,6 @@
 
   <rect x="60" y="666" width="1080" height="180" rx="10" fill="#4a4677"/>
   <text x="94" y="738" class="metric">Attack Vector String</text>
-  <text x="94" y="802" class="vector">CVSS:3.1 / AV:N / AC:L / PR:N / UI:N / S:C / C:H / I:H / A:H</text>
+  <text x="94" y="786" class="vector">CVSS:3.1 / AV:N / AC:L / PR:N / UI:N / S:C</text>
+  <text x="94" y="822" class="vector">C:H / I:H / A:H</text>
 </svg>

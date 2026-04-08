@@ -7,15 +7,16 @@
       .subtitle { fill: #d4d8f3; font: 400 24px 'Segoe UI', Arial, sans-serif; }
       .panelTitle { fill: #ffffff; font: 700 28px 'Segoe UI', Arial, sans-serif; }
       .body { fill: #d7daf5; font: 400 24px 'Segoe UI', Arial, sans-serif; }
-      .code { fill: #11142f; font: 700 28px 'Consolas', 'Courier New', monospace; }
+      .code { fill: #f4f6ff; font: 700 22px 'Consolas', 'Courier New', monospace; }
       .num { fill: #ffffff; font: 700 26px 'Segoe UI', Arial, sans-serif; }
     </style>
   </defs>
   <rect width="1200" height="700" fill="#140f44"/>
   <text x="62" y="98" class="title">User Interaction (UI): None</text>
   <text x="62" y="142" class="subtitle">The exploit can succeed without the victim clicking, opening, approving, or typing anything.</text>
-  <rect x="62" y="200" width="640" height="152" rx="22" fill="#f2f3f8"/>
-  <text x="98" y="286" class="code">CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H</text>
+  <rect x="62" y="200" width="640" height="152" rx="22" fill="#221d60" stroke="#5b50b5" stroke-width="2"/>
+  <text x="98" y="270" class="code">CVSS:3.1/AV:N/AC:L/PR:L/UI:N</text>
+  <text x="98" y="304" class="code">S:U/C:H/I:H/A:H</text>
   <path d="M 606 352 L 606 430 L 846 430" fill="none" stroke="#ff5f5f" stroke-width="8" stroke-linecap="round"/>
   <polygon points="846,430 812,412 812,448" fill="#ff5f5f"/>
   <rect x="790" y="234" width="336" height="254" rx="24" fill="#2f2a68"/>

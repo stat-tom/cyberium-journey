@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="860" viewBox="0 0 1200 860" role="img" aria-labelledby="title desc">
   <title id="title">CVSS vector example</title>
   <desc id="desc">A visual explanation of the CVSS v3.1 vector string for the EternalBlue example.</desc>
   <defs>
@@ -13,46 +13,51 @@
     <style>
       .title { fill: #ffffff; font: 700 44px 'Segoe UI', Arial, sans-serif; }
       .body { fill: #d7daf5; font: 400 24px 'Segoe UI', Arial, sans-serif; }
-      .small { fill: #c4c9ef; font: 400 20px 'Segoe UI', Arial, sans-serif; }
-      .label { fill: #ffffff; font: 700 20px 'Segoe UI', Arial, sans-serif; }
-      .token { fill: #10132f; font: 700 24px 'Consolas', 'Courier New', monospace; }
-      .vector { fill: #f7f7ff; font: 700 28px 'Consolas', 'Courier New', monospace; }
+      .small { fill: #cfd3f6; font: 400 18px 'Segoe UI', Arial, sans-serif; }
+      .label { fill: #ffffff; font: 700 19px 'Segoe UI', Arial, sans-serif; }
+      .token { fill: #ffffff; font: 700 24px 'Consolas', 'Courier New', monospace; }
+      .vector { fill: #f7f7ff; font: 700 22px 'Consolas', 'Courier New', monospace; }
     </style>
   </defs>
-  <rect width="1200" height="720" fill="url(#bg)"/>
-  <rect x="48" y="48" width="1104" height="624" rx="28" fill="#18154b" stroke="#352a86" stroke-width="2"/>
+  <rect width="1200" height="860" fill="url(#bg)"/>
+  <rect x="48" y="48" width="1104" height="764" rx="28" fill="#18154b" stroke="#352a86" stroke-width="2"/>
   <text x="84" y="118" class="title">Reading a CVSS v3.1 Vector</text>
   <text x="84" y="164" class="body">Example: EternalBlue (CVE-2017-0144)</text>
-  <rect x="84" y="204" width="1032" height="90" rx="20" fill="#f1f2f8"/>
-  <text x="116" y="259" class="vector" fill="#171b38">CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H</text>
+  <rect x="84" y="204" width="1032" height="108" rx="20" fill="#221d60" stroke="#5b50b5" stroke-width="2"/>
+  <text x="116" y="252" class="vector">CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U</text>
+  <text x="116" y="286" class="vector">C:H/I:H/A:H</text>
 
-  <rect x="84" y="338" width="214" height="126" rx="18" fill="#ffdde6"/>
+  <rect x="84" y="352" width="300" height="140" rx="18" fill="#221d60" stroke="#ff5f8a" stroke-width="2"/>
   <text x="110" y="382" class="token">AV:N</text>
-  <text x="110" y="417" class="label" fill="#171b38">Attack Vector</text>
-  <text x="110" y="447" class="small" fill="#2f3250">Remote exploitation over the network.</text>
+  <text x="110" y="417" class="label">Attack Vector</text>
+  <text x="110" y="447" class="small">Remote exploitation</text>
+  <text x="110" y="474" class="small">over the network.</text>
 
-  <rect x="322" y="338" width="214" height="126" rx="18" fill="#e6ddff"/>
-  <text x="348" y="382" class="token">AC:L</text>
-  <text x="348" y="417" class="label" fill="#171b38">Attack Complexity</text>
-  <text x="348" y="447" class="small" fill="#2f3250">No special conditions are needed.</text>
+  <rect x="450" y="352" width="300" height="140" rx="18" fill="#221d60" stroke="#8d7cff" stroke-width="2"/>
+  <text x="476" y="382" class="token">AC:L</text>
+  <text x="476" y="417" class="label">Attack Complexity</text>
+  <text x="476" y="447" class="small">No special conditions</text>
+  <text x="476" y="474" class="small">are needed.</text>
 
-  <rect x="560" y="338" width="214" height="126" rx="18" fill="#dbf0ff"/>
-  <text x="586" y="382" class="token">PR:L</text>
-  <text x="586" y="417" class="label" fill="#171b38">Privileges Required</text>
-  <text x="586" y="447" class="small" fill="#2f3250">Low privileges are enough.</text>
+  <rect x="816" y="352" width="300" height="140" rx="18" fill="#221d60" stroke="#6fd3ff" stroke-width="2"/>
+  <text x="842" y="382" class="token">PR:L</text>
+  <text x="842" y="417" class="label">Privileges Required</text>
+  <text x="842" y="447" class="small">Low privileges are</text>
+  <text x="842" y="474" class="small">enough.</text>
 
-  <rect x="798" y="338" width="152" height="126" rx="18" fill="#d8ffe8"/>
-  <text x="824" y="382" class="token">UI:N</text>
-  <text x="824" y="417" class="label" fill="#171b38">User Interaction</text>
-  <text x="824" y="447" class="small" fill="#2f3250">No user action required.</text>
+  <rect x="220" y="530" width="320" height="140" rx="18" fill="#221d60" stroke="#5ee89a" stroke-width="2"/>
+  <text x="246" y="560" class="token">UI:N</text>
+  <text x="246" y="595" class="label">User Interaction</text>
+  <text x="246" y="625" class="small">No user action is</text>
+  <text x="246" y="652" class="small">required.</text>
 
-  <rect x="974" y="338" width="142" height="126" rx="18" fill="#ffe8d9"/>
-  <text x="1000" y="382" class="token">S:U</text>
-  <text x="1000" y="417" class="label" fill="#171b38">Scope</text>
-  <text x="1000" y="447" class="small" fill="#2f3250">Impact stays in the same boundary.</text>
+  <rect x="658" y="530" width="320" height="140" rx="18" fill="#221d60" stroke="#ffb37c" stroke-width="2"/>
+  <text x="684" y="560" class="token">S:U</text>
+  <text x="684" y="595" class="label">Scope</text>
+  <text x="684" y="625" class="small">Impact stays within</text>
+  <text x="684" y="652" class="small">the same boundary.</text>
 
-  <rect x="84" y="492" width="1032" height="136" rx="20" fill="#121034" stroke="url(#accent)" stroke-width="2"/>
+  <rect x="84" y="710" width="1032" height="78" rx="20" fill="#121034" stroke="url(#accent)" stroke-width="2"/>
   <text x="114" y="536" class="label">Impact Metrics</text>
-  <text x="114" y="572" class="body">C:H / I:H / A:H means the vulnerability can seriously affect confidentiality, integrity, and availability.</text>
-  <text x="114" y="610" class="small">Together these values explain why this example has a high technical severity score.</text>
+  <text x="114" y="748" class="body">C:H / I:H / A:H means high impact on confidentiality, integrity, and availability.</text>
 </svg>
