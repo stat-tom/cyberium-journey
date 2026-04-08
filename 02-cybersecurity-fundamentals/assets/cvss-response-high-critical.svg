@@ -6,6 +6,7 @@
       .title { fill: #ffffff; font: 700 52px 'Segoe UI', Arial, sans-serif; }
       .cardTitle { fill: #ffffff; font: 700 26px 'Segoe UI', Arial, sans-serif; }
       .body { fill: #d7daf5; font: 400 24px 'Segoe UI', Arial, sans-serif; }
+      .bodyCompact { fill: #d7daf5; font: 400 20px 'Segoe UI', Arial, sans-serif; }
       .icon { fill: none; stroke: #ff5f7f; stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; }
     </style>
   </defs>
@@ -21,7 +22,7 @@
     <path d="M22 48 L29 55" class="icon"/>
   </g>
   <text x="80" y="380" class="cardTitle">Patching</text>
-  <text x="80" y="442" class="body">Install the recommended security updates as quickly as possible.</text>
+  <text x="80" y="438" class="bodyCompact">Install the recommended security updates as quickly as possible.</text>
 
   <rect x="40" y="520" width="1120" height="250" rx="20" fill="#221d60" stroke="#ff5f7f" stroke-width="2"/>
   <g transform="translate(80, 558)">
