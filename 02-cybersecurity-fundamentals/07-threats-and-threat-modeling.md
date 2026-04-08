@@ -91,6 +91,31 @@
 - Use a framework such as STRIDE to avoid missing common categories of abuse.
 - Discuss the threats as a team so different people can challenge assumptions and add scenarios.
 
+## Step 3: What Are We Going to Do About It?
+
+![Step 3 in threat modeling](./assets/threat-step-3-what-are-we-going-to-do-about-it.svg)
+
+- Choose mitigations that reduce risk to an acceptable level rather than aiming for perfect elimination.
+- Some threats require architectural changes, while others are better handled with security features or process improvements.
+- The output of this step should be a clear set of actions, owners, and priorities.
+
+## Step 4: Did We Do a Good Enough Job?
+
+![Step 4 in threat modeling](./assets/threat-step-4-did-we-do-a-good-enough-job.svg)
+
+- Review whether the selected controls actually address the identified threats.
+- Check whether the changes introduced new weaknesses or unexpected side effects.
+- Treat threat modeling as a repeatable process that should be revisited as the system evolves.
+
+## Summary of the Four Questions
+
+![Summary of the four questions](./assets/threat-four-questions-summary.svg)
+
+- First understand the system.
+- Then identify what could go wrong.
+- Next decide what actions to take.
+- Finally verify whether the result is good enough.
+
 ## Practical References
 
 ![OWASP cheat sheets](./assets/threat-owasp-cheat-sheets.svg)

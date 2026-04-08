@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1520" height="420" viewBox="0 0 1520 420" role="img" aria-labelledby="title desc">
+  <title id="title">Step 4: Did we do a good enough job?</title>
+  <desc id="desc">Threat modeling step four focuses on assessing effectiveness, checking for new threats, and treating the work as continuous.</desc>
+  <defs>
+    <style>
+      .title { fill: #ffffff; font: 700 44px 'Segoe UI', Arial, sans-serif; }
+      .heading { fill: #ffffff; font: 700 24px 'Segoe UI', Arial, sans-serif; }
+      .body { fill: #d7daf5; font: 400 24px 'Segoe UI', Arial, sans-serif; }
+    </style>
+  </defs>
+  <rect width="1520" height="420" fill="#150f45"/>
+  <text x="30" y="70" class="title">Step 4: Did We Do a Good Enough Job?</text>
+
+  <text x="32" y="192" class="heading">Effectiveness Review</text>
+  <text x="32" y="256" class="body">Verify that the chosen controls really address the identified threats.</text>
+  <text x="32" y="300" class="body">Check the result rather than assuming the fix is sufficient.</text>
+
+  <text x="544" y="192" class="heading">New Threats</text>
+  <text x="544" y="256" class="body">Make sure the changes did not introduce new weaknesses</text>
+  <text x="544" y="300" class="body">or shift the risk somewhere else in the system.</text>
+
+  <text x="1056" y="192" class="heading">Continuous Process</text>
+  <text x="1056" y="256" class="body">Threat modeling should be repeated regularly as the</text>
+  <text x="1056" y="300" class="body">application, architecture, and business context change.</text>
+</svg>

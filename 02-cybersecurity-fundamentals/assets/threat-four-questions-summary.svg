@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="760" viewBox="0 0 920 760" role="img" aria-labelledby="title desc">
+  <title id="title">Summary of the four questions</title>
+  <desc id="desc">Summary of the four core questions in threat modeling.</desc>
+  <defs>
+    <style>
+      .title { fill: #ffffff; font: 700 42px 'Segoe UI', Arial, sans-serif; }
+      .numBox { fill: #433d7b; }
+      .num { fill: #ffffff; font: 700 28px 'Segoe UI', Arial, sans-serif; }
+      .heading { fill: #dfe2ff; font: 700 22px 'Segoe UI', Arial, sans-serif; }
+      .body { fill: #d7daf5; font: 400 22px 'Segoe UI', Arial, sans-serif; }
+    </style>
+  </defs>
+  <rect width="920" height="760" fill="#150f45"/>
+  <text x="30" y="72" class="title">Summary of the Four</text>
+  <text x="30" y="124" class="title">Questions</text>
+
+  <rect x="30" y="236" width="62" height="62" rx="4" class="numBox"/>
+  <text x="54" y="278" class="num">1</text>
+  <text x="120" y="262" class="heading">System Understanding</text>
+  <text x="120" y="322" class="body">What are we building?</text>
+
+  <rect x="470" y="236" width="62" height="62" rx="4" class="numBox"/>
+  <text x="494" y="278" class="num">2</text>
+  <text x="560" y="262" class="heading">Threat Identification</text>
+  <text x="560" y="322" class="body">What can go wrong?</text>
+
+  <rect x="30" y="470" width="62" height="62" rx="4" class="numBox"/>
+  <text x="54" y="512" class="num">3</text>
+  <text x="120" y="496" class="heading">Action Planning</text>
+  <text x="120" y="556" class="body">What are we going to do</text>
+  <text x="120" y="596" class="body">about it?</text>
+
+  <rect x="470" y="470" width="62" height="62" rx="4" class="numBox"/>
+  <text x="494" y="512" class="num">4</text>
+  <text x="560" y="496" class="heading">Effectiveness Review</text>
+  <text x="560" y="556" class="body">Did we do a good enough</text>
+  <text x="560" y="596" class="body">job?</text>
+</svg>

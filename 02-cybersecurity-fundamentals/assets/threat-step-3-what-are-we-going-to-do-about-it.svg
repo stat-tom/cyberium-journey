@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="760" viewBox="0 0 1020 760" role="img" aria-labelledby="title desc">
+  <title id="title">Step 3: What are we going to do about it?</title>
+  <desc id="desc">Threat modeling step three focuses on choosing mitigations such as risk reduction, architectural changes, security features, and process improvements.</desc>
+  <defs>
+    <style>
+      .title { fill: #ffffff; font: 700 42px 'Segoe UI', Arial, sans-serif; }
+      .card { fill: #3a356c; }
+      .heading { fill: #dfe2ff; font: 700 22px 'Segoe UI', Arial, sans-serif; }
+      .body { fill: #d7daf5; font: 400 21px 'Segoe UI', Arial, sans-serif; }
+    </style>
+  </defs>
+  <rect width="1020" height="760" fill="#150f45"/>
+  <text x="18" y="68" class="title">Step 3: What Are We Going to Do About It?</text>
+
+  <rect x="18" y="118" width="984" height="140" rx="10" class="card"/>
+  <text x="44" y="172" class="heading">Risk Reduction</text>
+  <text x="44" y="222" class="body">The goal is to reduce risk to an acceptable level.</text>
+
+  <rect x="18" y="286" width="984" height="140" rx="10" class="card"/>
+  <text x="44" y="340" class="heading">Architectural Changes</text>
+  <text x="44" y="390" class="body">Modify the system design where the root cause lives.</text>
+
+  <rect x="18" y="454" width="984" height="140" rx="10" class="card"/>
+  <text x="44" y="508" class="heading">Security Features</text>
+  <text x="44" y="558" class="body">Add controls such as validation, logging, isolation, or stronger authentication.</text>
+
+  <rect x="18" y="622" width="984" height="120" rx="10" class="card"/>
+  <text x="44" y="676" class="heading">Process Improvements</text>
+  <text x="44" y="720" class="body">Improve workflows and reviews to reduce the chance of recurring threats.</text>
+</svg>
