@@ -21,8 +21,7 @@
     <path d="M22 48 L29 55" class="icon"/>
   </g>
   <text x="80" y="380" class="cardTitle">Patching</text>
-  <text x="80" y="432" class="body">Install the recommended security</text>
-  <text x="80" y="466" class="body">updates as quickly as possible.</text>
+  <text x="80" y="442" class="body">Install the recommended security updates as quickly as possible.</text>
 
   <rect x="40" y="520" width="1120" height="250" rx="20" fill="#221d60" stroke="#ff5f7f" stroke-width="2"/>
   <g transform="translate(80, 558)">
@@ -31,8 +30,7 @@
     <path d="M56 20 L70 6" class="icon"/>
   </g>
   <text x="80" y="700" class="cardTitle">Reconfiguration</text>
-  <text x="80" y="752" class="body">Adjust system settings or controls</text>
-  <text x="80" y="786" class="body">to apply compensating protections.</text>
+  <text x="80" y="762" class="body">Adjust system settings or controls to apply compensating protections.</text>
 
   <rect x="40" y="830" width="1120" height="250" rx="20" fill="#221d60" stroke="#ff5f7f" stroke-width="2"/>
   <g transform="translate(80, 868)">
@@ -42,6 +40,5 @@
     <path d="M84 8 L84 34" class="icon"/>
   </g>
   <text x="80" y="1010" class="cardTitle">Rescanning</text>
-  <text x="80" y="1062" class="body">Verify that the fix works and confirm</text>
-  <text x="80" y="1096" class="body">the vulnerability is no longer present.</text>
+  <text x="80" y="1072" class="body">Verify that the fix works and confirm the vulnerability is no longer present.</text>
 </svg>

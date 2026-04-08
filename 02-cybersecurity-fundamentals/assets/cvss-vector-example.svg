@@ -24,8 +24,7 @@
   <text x="84" y="118" class="title">Reading a CVSS v3.1 Vector</text>
   <text x="84" y="164" class="body">Example: EternalBlue (CVE-2017-0144)</text>
   <rect x="84" y="204" width="1032" height="108" rx="20" fill="#221d60" stroke="#5b50b5" stroke-width="2"/>
-  <text x="116" y="252" class="vector">CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U</text>
-  <text x="116" y="286" class="vector">C:H/I:H/A:H</text>
+  <text x="116" y="270" class="vector">CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H</text>
 
   <rect x="84" y="352" width="300" height="140" rx="18" fill="#221d60" stroke="#ff5f8a" stroke-width="2"/>
   <text x="110" y="382" class="token">AV:N</text>
@@ -41,10 +40,8 @@
 
   <rect x="816" y="352" width="300" height="140" rx="18" fill="#221d60" stroke="#6fd3ff" stroke-width="2"/>
   <text x="842" y="382" class="token">PR:L</text>
-  <text x="842" y="417" class="label">Privileges</text>
-  <text x="842" y="441" class="label">Required</text>
-  <text x="842" y="472" class="small">Low privileges are</text>
-  <text x="842" y="499" class="small">enough.</text>
+  <text x="842" y="417" class="label">Privileges Required</text>
+  <text x="842" y="452" class="small">Low privileges are enough.</text>
 
   <rect x="220" y="530" width="320" height="140" rx="18" fill="#221d60" stroke="#5ee89a" stroke-width="2"/>
   <text x="246" y="560" class="token">UI:N</text>
@@ -60,6 +57,5 @@
 
   <rect x="84" y="700" width="1032" height="96" rx="20" fill="#121034" stroke="url(#accent)" stroke-width="2"/>
   <text x="114" y="734" class="label">Impact Metrics</text>
-  <text x="114" y="764" class="body">C:H / I:H / A:H means high impact on confidentiality,</text>
-  <text x="114" y="790" class="body">integrity, and availability.</text>
+  <text x="114" y="778" class="body">C:H / I:H / A:H means high impact on confidentiality, integrity, and availability.</text>
 </svg>
