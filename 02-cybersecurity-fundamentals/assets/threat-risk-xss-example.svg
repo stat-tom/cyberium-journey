@@ -5,10 +5,13 @@
     <style>
       .bg { fill: #150f45; }
       .title { fill: #ffffff; font: 700 56px 'Segoe UI', Arial, sans-serif; }
-      .heading { fill: #e7e9ff; font: 700 25px 'Segoe UI', Arial, sans-serif; }
-      .body { fill: #d7daf5; font: 400 22px 'Segoe UI', Arial, sans-serif; }
-      .axis { stroke: #111111; stroke-width: 6; }
-      .label { fill: #1c1c1c; font: 700 22px 'Segoe UI', Arial, sans-serif; }
+      .heading { fill: #e7e9ff; font: 700 28px 'Segoe UI', Arial, sans-serif; }
+      .body { fill: #d7daf5; font: 400 20px 'Segoe UI', Arial, sans-serif; }
+      .panel { fill: #f7f7fb; rx: 18; }
+      .axis { stroke: #111111; stroke-width: 5; }
+      .grid { stroke: #7d7d7d; stroke-width: 1.5; fill: none; }
+      .label { fill: #1c1c1c; font: 700 24px 'Segoe UI', Arial, sans-serif; }
+      .matrix-label { fill: #1c1c1c; font: 700 26px 'Segoe UI', Arial, sans-serif; }
       .cell-low { fill: #76b947; }
       .cell-mid { fill: #ffc528; }
       .cell-high { fill: #f22b2b; }
@@ -18,34 +21,42 @@
   <text x="32" y="82" class="title">Risk Example: Cross-Site Scripting</text>
 
   <text x="34" y="180" class="heading">Likelihood</text>
-  <text x="34" y="232" class="body">Medium because exploitation may require</text>
-  <text x="34" y="270" class="body">user interaction or a specific page flow.</text>
+  <text x="34" y="230" class="body">Medium because exploitation may require</text>
+  <text x="34" y="266" class="body">user interaction or a specific page flow.</text>
 
-  <text x="430" y="180" class="heading">Impact</text>
-  <text x="430" y="232" class="body">Medium because XSS can steal sessions,</text>
-  <text x="430" y="270" class="body">deface pages, or execute browser actions.</text>
+  <text x="420" y="180" class="heading">Impact</text>
+  <text x="420" y="230" class="body">Medium because XSS can steal sessions,</text>
+  <text x="420" y="266" class="body">deface pages, or execute browser actions.</text>
 
   <text x="930" y="180" class="heading">Risk</text>
-  <text x="930" y="232" class="body">Medium</text>
+  <text x="930" y="230" class="body">Medium</text>
 
-  <rect x="160" y="430" width="180" height="180" class="cell-low"/>
-  <rect x="340" y="430" width="180" height="180" class="cell-mid"/>
-  <rect x="520" y="430" width="180" height="180" class="cell-high"/>
-  <rect x="160" y="610" width="180" height="180" class="cell-low"/>
-  <rect x="340" y="610" width="360" height="180" class="cell-mid"/>
-  <rect x="160" y="790" width="540" height="100" class="cell-low"/>
+  <rect x="44" y="320" width="760" height="560" class="panel"/>
 
-  <line x1="100" y1="890" x2="100" y2="380" class="axis"/>
-  <line x1="100" y1="380" x2="760" y2="380" class="axis"/>
-  <polygon points="760,380 730,364 730,396" fill="#111111"/>
-  <polygon points="100,380 84,410 116,410" fill="#111111" transform="rotate(-90 100 380)"/>
+  <rect x="160" y="430" width="180" height="150" class="cell-low"/>
+  <rect x="340" y="430" width="180" height="150" class="cell-mid"/>
+  <rect x="520" y="430" width="180" height="150" class="cell-high"/>
+  <rect x="160" y="580" width="180" height="150" class="cell-low"/>
+  <rect x="340" y="580" width="360" height="150" class="cell-mid"/>
+  <rect x="160" y="730" width="540" height="120" class="cell-low"/>
 
-  <text x="235" y="355" text-anchor="middle" class="label">Low</text>
-  <text x="430" y="355" text-anchor="middle" class="label">Medium</text>
-  <text x="610" y="355" text-anchor="middle" class="label">High</text>
-  <text x="22" y="825" class="label">Low</text>
-  <text x="20" y="690" class="label">Medium</text>
-  <text x="38" y="525" class="label">High</text>
-  <text x="380" y="330" class="label">Impact</text>
-  <text x="34" y="635" transform="rotate(-90 34 635)" class="label">Likelihood</text>
+  <rect x="160" y="430" width="540" height="420" class="grid"/>
+  <line x1="340" y1="430" x2="340" y2="850" class="grid"/>
+  <line x1="520" y1="430" x2="520" y2="730" class="grid"/>
+  <line x1="160" y1="580" x2="700" y2="580" class="grid"/>
+  <line x1="160" y1="730" x2="700" y2="730" class="grid"/>
+
+  <line x1="100" y1="850" x2="100" y2="392" class="axis"/>
+  <line x1="100" y1="392" x2="760" y2="392" class="axis"/>
+  <polygon points="760,392 730,376 730,408" fill="#111111"/>
+  <polygon points="100,392 84,422 116,422" fill="#111111" transform="rotate(-90 100 392)"/>
+
+  <text x="250" y="360" text-anchor="middle" class="label">Low</text>
+  <text x="430" y="360" text-anchor="middle" class="label">Medium</text>
+  <text x="610" y="360" text-anchor="middle" class="label">High</text>
+  <text x="36" y="812" class="label">Low</text>
+  <text x="18" y="660" class="label">Medium</text>
+  <text x="34" y="510" class="label">High</text>
+  <text x="385" y="332" class="matrix-label">Impact</text>
+  <text x="36" y="650" transform="rotate(-90 36 650)" class="matrix-label">Likelihood</text>
 </svg>
