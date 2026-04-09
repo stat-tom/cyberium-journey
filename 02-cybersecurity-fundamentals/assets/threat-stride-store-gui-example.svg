@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="860" viewBox="0 0 1200 860" role="img" aria-labelledby="title desc">
+  <title id="title">Threats for the user interface</title>
+  <desc id="desc">A card-based STRIDE example for the GUI of an online store.</desc>
+  <defs>
+    <style>
+      .bg { fill: #150f45; }
+      .title { fill: #ffffff; font: 700 58px 'Segoe UI', Arial, sans-serif; }
+      .card { fill: #3a356c; stroke: #4d4791; stroke-width: 2; rx: 18; }
+      .heading { fill: #e7e9ff; font: 700 28px 'Segoe UI', Arial, sans-serif; }
+      .body { fill: #d7daf5; font: 400 23px 'Segoe UI', Arial, sans-serif; }
+    </style>
+  </defs>
+  <rect width="1200" height="860" class="bg"/>
+  <text x="26" y="82" class="title">Threats for the User Interface</text>
+
+  <rect x="20" y="180" width="370" height="190" class="card"/>
+  <text x="44" y="255" class="heading">Spoofing</text>
+  <text x="44" y="320" class="body">Fake login pages stealing</text>
+  <text x="44" y="360" class="body">user credentials.</text>
+
+  <rect x="415" y="180" width="380" height="190" class="card"/>
+  <text x="440" y="255" class="heading">Tampering</text>
+  <text x="440" y="320" class="body">Manipulating HTTP request</text>
+  <text x="440" y="360" class="body">parameters and form values.</text>
+
+  <rect x="820" y="180" width="360" height="190" class="card"/>
+  <text x="844" y="255" class="heading">Information Disclosure</text>
+  <text x="844" y="320" class="body">Sensitive data leaked through</text>
+  <text x="844" y="360" class="body">errors or exposed UI fields.</text>
+
+  <rect x="20" y="405" width="570" height="175" class="card"/>
+  <text x="44" y="480" class="heading">Denial of Service</text>
+  <text x="44" y="545" class="body">Overloading the interface with repeated</text>
+  <text x="44" y="585" class="body">HTTP requests and expensive actions.</text>
+
+  <rect x="615" y="405" width="565" height="175" class="card"/>
+  <text x="640" y="480" class="heading">Elevation of Privilege</text>
+  <text x="640" y="545" class="body">XSS or weak role checks enabling actions</text>
+  <text x="640" y="585" class="body">with higher privileges than intended.</text>
+</svg>

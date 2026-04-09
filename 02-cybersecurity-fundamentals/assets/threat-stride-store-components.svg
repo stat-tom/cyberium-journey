@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="860" viewBox="0 0 1200 860" role="img" aria-labelledby="title desc">
+  <title id="title">Main components of the online store</title>
+  <desc id="desc">A four-box overview of the main components in an online store used for STRIDE analysis.</desc>
+  <defs>
+    <style>
+      .bg { fill: #150f45; }
+      .title { fill: #ffffff; font: 700 56px 'Segoe UI', Arial, sans-serif; }
+      .card { fill: #231d63; stroke: #4a468b; stroke-width: 2; rx: 18; }
+      .badge { fill: #3a356c; rx: 10; }
+      .num { fill: #e6e8ff; font: 700 32px 'Segoe UI', Arial, sans-serif; }
+      .heading { fill: #e6e8ff; font: 700 26px 'Segoe UI', Arial, sans-serif; }
+      .body { fill: #d6d8f5; font: 400 21px 'Segoe UI', Arial, sans-serif; }
+    </style>
+  </defs>
+  <rect width="1200" height="860" class="bg"/>
+  <text x="40" y="82" class="title">Main Components of the System</text>
+
+  <rect x="50" y="170" width="500" height="250" class="card"/>
+  <rect x="80" y="205" width="74" height="74" class="badge"/>
+  <text x="117" y="255" text-anchor="middle" class="num">1</text>
+  <text x="190" y="245" class="heading">Application server</text>
+  <text x="190" y="300" class="body">Handles business logic, authentication,</text>
+  <text x="190" y="338" class="body">authorization, checkout, and database access.</text>
+
+  <rect x="650" y="170" width="500" height="250" class="card"/>
+  <rect x="680" y="205" width="74" height="74" class="badge"/>
+  <text x="717" y="255" text-anchor="middle" class="num">2</text>
+  <text x="790" y="245" class="heading">Database server</text>
+  <text x="790" y="300" class="body">Stores users, products, carts, orders,</text>
+  <text x="790" y="338" class="body">and other persistent application data.</text>
+
+  <rect x="50" y="500" width="500" height="250" class="card"/>
+  <rect x="80" y="535" width="74" height="74" class="badge"/>
+  <text x="117" y="585" text-anchor="middle" class="num">3</text>
+  <text x="190" y="575" class="heading">User interface</text>
+  <text x="190" y="630" class="body">The browser or frontend used by customers</text>
+  <text x="190" y="668" class="body">and administrators to interact with the store.</text>
+
+  <rect x="650" y="500" width="500" height="250" class="card"/>
+  <rect x="680" y="535" width="74" height="74" class="badge"/>
+  <text x="717" y="585" text-anchor="middle" class="num">4</text>
+  <text x="790" y="575" class="heading">Payment system</text>
+  <text x="790" y="630" class="body">An external provider that processes payments</text>
+  <text x="790" y="668" class="body">and returns transaction status information.</text>
+</svg>

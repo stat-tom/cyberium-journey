@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="620" viewBox="0 0 1400 620" role="img" aria-labelledby="title desc">
+  <title id="title">Risk assessment overview</title>
+  <desc id="desc">A three-step overview showing likelihood, impact, and risk.</desc>
+  <defs>
+    <style>
+      .bg { fill: #150f45; }
+      .title { fill: #ffffff; font: 700 56px 'Segoe UI', Arial, sans-serif; }
+      .step { fill: #3a356c; }
+      .num { fill: #e7e9ff; font: 700 34px 'Segoe UI', Arial, sans-serif; }
+      .heading { fill: #e7e9ff; font: 700 28px 'Segoe UI', Arial, sans-serif; }
+      .body { fill: #d7daf5; font: 400 22px 'Segoe UI', Arial, sans-serif; }
+    </style>
+  </defs>
+  <rect width="1400" height="620" class="bg"/>
+  <text x="36" y="78" class="title">Risk Assessment</text>
+
+  <polygon points="20,170 460,170 500,245 460,320 20,320 50,245" class="step"/>
+  <polygon points="510,170 950,170 990,245 950,320 510,320 540,245" class="step"/>
+  <polygon points="1000,170 1400,170 1440,245 1400,320 1000,320 1030,245" class="step" transform="translate(-40 0)"/>
+
+  <text x="260" y="260" text-anchor="middle" class="num">1</text>
+  <text x="750" y="260" text-anchor="middle" class="num">2</text>
+  <text x="1190" y="260" text-anchor="middle" class="num">3</text>
+
+  <text x="48" y="430" class="heading">Likelihood</text>
+  <text x="48" y="485" class="body">Estimate how probable the threat is</text>
+  <text x="48" y="523" class="body">and how easy it is to exploit.</text>
+
+  <text x="530" y="430" class="heading">Impact</text>
+  <text x="530" y="485" class="body">Estimate the harm to users, data,</text>
+  <text x="530" y="523" class="body">operations, or business value.</text>
+
+  <text x="1018" y="430" class="heading">Risk</text>
+  <text x="1018" y="485" class="body">Combine likelihood and impact</text>
+  <text x="1018" y="523" class="body">to decide the priority level.</text>
+</svg>

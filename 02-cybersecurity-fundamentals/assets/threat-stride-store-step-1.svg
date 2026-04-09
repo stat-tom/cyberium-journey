@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="860" viewBox="0 0 1200 860" role="img" aria-labelledby="title desc">
+  <title id="title">Step 1: Decompose the application</title>
+  <desc id="desc">A three-step decomposition view for an online store threat-modeling example.</desc>
+  <defs>
+    <style>
+      .bg { fill: #150f45; }
+      .title { fill: #ffffff; font: 700 54px 'Segoe UI', Arial, sans-serif; }
+      .step { fill: #3a356c; }
+      .num { fill: #e6e8ff; font: 700 34px 'Segoe UI', Arial, sans-serif; }
+      .heading { fill: #e6e8ff; font: 700 28px 'Segoe UI', Arial, sans-serif; }
+      .body { fill: #d6d8f5; font: 400 22px 'Segoe UI', Arial, sans-serif; }
+    </style>
+  </defs>
+  <rect width="1200" height="860" class="bg"/>
+  <text x="36" y="78" class="title">Step 1: Decompose the Application</text>
+
+  <path d="M40 150 L140 190 L240 150 L240 370 L140 410 L40 370 Z" class="step"/>
+  <path d="M40 440 L140 480 L240 440 L240 660 L140 700 L40 660 Z" class="step"/>
+  <path d="M40 730 L140 770 L240 730 L240 840 L140 880 L40 840 Z" class="step" transform="translate(0,-110)"/>
+
+  <text x="128" y="288" text-anchor="middle" class="num">1</text>
+  <text x="128" y="578" text-anchor="middle" class="num">2</text>
+  <text x="128" y="758" text-anchor="middle" class="num">3</text>
+
+  <text x="320" y="228" class="heading">Main system components</text>
+  <text x="320" y="286" class="body">Identify the application server, database, frontend,</text>
+  <text x="320" y="324" class="body">and the external payment provider.</text>
+
+  <text x="320" y="494" class="heading">Data flows</text>
+  <text x="320" y="552" class="body">Review how HTTP requests, SQL queries, and payment</text>
+  <text x="320" y="590" class="body">messages move between components.</text>
+
+  <text x="320" y="714" class="heading">Trust boundaries</text>
+  <text x="320" y="772" class="body">Mark where data crosses from less trusted areas into</text>
+  <text x="320" y="810" class="body">the trusted backend and external integrations.</text>
+</svg>

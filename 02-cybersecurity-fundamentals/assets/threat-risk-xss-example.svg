@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="920" viewBox="0 0 1200 920" role="img" aria-labelledby="title desc">
+  <title id="title">Cross-site scripting risk assessment</title>
+  <desc id="desc">An example risk assessment showing medium likelihood, medium impact, and medium overall risk for XSS.</desc>
+  <defs>
+    <style>
+      .bg { fill: #150f45; }
+      .title { fill: #ffffff; font: 700 56px 'Segoe UI', Arial, sans-serif; }
+      .heading { fill: #e7e9ff; font: 700 25px 'Segoe UI', Arial, sans-serif; }
+      .body { fill: #d7daf5; font: 400 22px 'Segoe UI', Arial, sans-serif; }
+      .axis { stroke: #111111; stroke-width: 6; }
+      .label { fill: #1c1c1c; font: 700 22px 'Segoe UI', Arial, sans-serif; }
+      .cell-low { fill: #76b947; }
+      .cell-mid { fill: #ffc528; }
+      .cell-high { fill: #f22b2b; }
+    </style>
+  </defs>
+  <rect width="1200" height="920" class="bg"/>
+  <text x="32" y="82" class="title">Risk Example: Cross-Site Scripting</text>
+
+  <text x="34" y="180" class="heading">Likelihood</text>
+  <text x="34" y="232" class="body">Medium because exploitation may require</text>
+  <text x="34" y="270" class="body">user interaction or a specific page flow.</text>
+
+  <text x="430" y="180" class="heading">Impact</text>
+  <text x="430" y="232" class="body">Medium because XSS can steal sessions,</text>
+  <text x="430" y="270" class="body">deface pages, or execute browser actions.</text>
+
+  <text x="930" y="180" class="heading">Risk</text>
+  <text x="930" y="232" class="body">Medium</text>
+
+  <rect x="160" y="430" width="180" height="180" class="cell-low"/>
+  <rect x="340" y="430" width="180" height="180" class="cell-mid"/>
+  <rect x="520" y="430" width="180" height="180" class="cell-high"/>
+  <rect x="160" y="610" width="180" height="180" class="cell-low"/>
+  <rect x="340" y="610" width="360" height="180" class="cell-mid"/>
+  <rect x="160" y="790" width="540" height="100" class="cell-low"/>
+
+  <line x1="100" y1="890" x2="100" y2="380" class="axis"/>
+  <line x1="100" y1="380" x2="760" y2="380" class="axis"/>
+  <polygon points="760,380 730,364 730,396" fill="#111111"/>
+  <polygon points="100,380 84,410 116,410" fill="#111111" transform="rotate(-90 100 380)"/>
+
+  <text x="235" y="355" text-anchor="middle" class="label">Low</text>
+  <text x="430" y="355" text-anchor="middle" class="label">Medium</text>
+  <text x="610" y="355" text-anchor="middle" class="label">High</text>
+  <text x="22" y="825" class="label">Low</text>
+  <text x="20" y="690" class="label">Medium</text>
+  <text x="38" y="525" class="label">High</text>
+  <text x="380" y="330" class="label">Impact</text>
+  <text x="34" y="635" transform="rotate(-90 34 635)" class="label">Likelihood</text>
+</svg>

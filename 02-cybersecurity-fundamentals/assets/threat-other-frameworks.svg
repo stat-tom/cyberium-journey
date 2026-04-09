@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520" role="img" aria-labelledby="title desc">
+  <title id="title">Other threat modeling frameworks</title>
+  <desc id="desc">A four-item overview of alternative frameworks to STRIDE.</desc>
+  <defs>
+    <style>
+      .bg { fill: #150f45; }
+      .title { fill: #ffffff; font: 700 58px 'Segoe UI', Arial, sans-serif; }
+      .badge { fill: #3a356c; rx: 10; }
+      .num { fill: #e7e9ff; font: 700 28px 'Segoe UI', Arial, sans-serif; }
+      .label { fill: #e7e9ff; font: 700 28px 'Segoe UI', Arial, sans-serif; }
+    </style>
+  </defs>
+  <rect width="1400" height="520" class="bg"/>
+  <text x="34" y="86" class="title">Other Threat Modeling Frameworks</text>
+
+  <rect x="32" y="170" width="72" height="72" class="badge"/>
+  <text x="68" y="217" text-anchor="middle" class="num">1</text>
+  <text x="140" y="215" class="label">PASTA</text>
+
+  <rect x="860" y="170" width="72" height="72" class="badge"/>
+  <text x="896" y="217" text-anchor="middle" class="num">2</text>
+  <text x="972" y="215" class="label">Trike</text>
+
+  <rect x="32" y="360" width="72" height="72" class="badge"/>
+  <text x="68" y="407" text-anchor="middle" class="num">3</text>
+  <text x="140" y="405" class="label">OCTAVE</text>
+
+  <rect x="860" y="360" width="72" height="72" class="badge"/>
+  <text x="896" y="407" text-anchor="middle" class="num">4</text>
+  <text x="972" y="405" class="label">VAST</text>
+</svg>

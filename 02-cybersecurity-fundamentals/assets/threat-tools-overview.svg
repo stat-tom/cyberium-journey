@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="860" viewBox="0 0 1200 860" role="img" aria-labelledby="title desc">
+  <title id="title">Threat modeling tools</title>
+  <desc id="desc">A card-based overview of two common threat modeling tools and a short recommendation to explore them.</desc>
+  <defs>
+    <style>
+      .bg { fill: #150f45; }
+      .title { fill: #ffffff; font: 700 58px 'Segoe UI', Arial, sans-serif; }
+      .card { fill: #3a356c; stroke: #4d4791; stroke-width: 2; rx: 18; }
+      .heading { fill: #e7e9ff; font: 700 28px 'Segoe UI', Arial, sans-serif; }
+      .body { fill: #d7daf5; font: 400 23px 'Segoe UI', Arial, sans-serif; }
+    </style>
+  </defs>
+  <rect width="1200" height="860" class="bg"/>
+  <text x="34" y="86" class="title">Threat Modeling</text>
+  <text x="34" y="158" class="title">Tools</text>
+
+  <rect x="48" y="248" width="540" height="385" class="card"/>
+  <text x="84" y="330" class="heading">Microsoft Threat</text>
+  <text x="84" y="372" class="heading">Modeling Tool</text>
+  <text x="84" y="456" class="body">A free tool that supports security teams</text>
+  <text x="84" y="496" class="body">during diagram-based threat modeling</text>
+  <text x="84" y="536" class="body">and structured threat identification.</text>
+
+  <rect x="638" y="248" width="514" height="385" class="card"/>
+  <text x="674" y="330" class="heading">OWASP Threat Dragon</text>
+  <text x="674" y="414" class="body">Another free tool used to model</text>
+  <text x="674" y="454" class="body">threats through architecture diagrams</text>
+  <text x="674" y="494" class="body">and documented findings.</text>
+
+  <rect x="48" y="676" width="1104" height="132" class="card"/>
+  <text x="84" y="744" class="heading">Explore the tools</text>
+  <text x="84" y="790" class="body">It is worth spending a few minutes getting familiar with these applications.</text>
+</svg>

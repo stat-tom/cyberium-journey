@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">Threat documentation example for SQL injection</title>
+  <desc id="desc">A text slide documenting a SQL injection threat with name, description, goal, technique, privileges, impact, and mitigations.</desc>
+  <defs>
+    <style>
+      .bg { fill: #150f45; }
+      .title { fill: #ffffff; font: 700 58px 'Segoe UI', Arial, sans-serif; }
+      .key { fill: #e7e9ff; font: 700 26px 'Segoe UI', Arial, sans-serif; }
+      .value { fill: #d7daf5; font: 400 25px 'Segoe UI', Arial, sans-serif; }
+    </style>
+  </defs>
+  <rect width="1400" height="760" class="bg"/>
+  <text x="34" y="86" class="title">Threat Record: SQL Injection</text>
+
+  <text x="34" y="182" class="key">Threat name:</text>
+  <text x="290" y="182" class="value">SQL injection in the database server path</text>
+
+  <text x="34" y="282" class="key">Description:</text>
+  <text x="230" y="282" class="value">The attacker manipulates input parameters to alter SQL queries.</text>
+
+  <text x="34" y="382" class="key">Goal:</text>
+  <text x="126" y="382" class="value">Unauthorized access, modification, or deletion of data.</text>
+
+  <text x="34" y="482" class="key">Attack technique:</text>
+  <text x="292" y="482" class="value">Injection of malicious SQL through unvalidated input.</text>
+
+  <text x="34" y="582" class="key">Required privileges:</text>
+  <text x="324" y="582" class="value">Often none when the vulnerable input is publicly reachable.</text>
+
+  <text x="34" y="682" class="key">Business impact:</text>
+  <text x="274" y="682" class="value">High due to potential loss of confidentiality and integrity.</text>
+
+  <text x="720" y="682" class="key">Mitigations:</text>
+  <text x="914" y="682" class="value">Parameterized queries and strict input validation.</text>
+</svg>

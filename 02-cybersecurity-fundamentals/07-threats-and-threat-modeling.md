@@ -66,6 +66,91 @@
 - Attack trees: visual breakdowns of how an attacker might achieve a goal.
 - Abuse cases: scenarios that describe how a feature can be misused.
 
+## Example: STRIDE Analysis for an Online Store
+
+![Step 1: decompose the online store](./assets/threat-stride-store-step-1.svg)
+
+- In this example, we model a simple online store with a frontend, an application server, a database, and an external payment provider.
+- The first step is decomposition: identify the main components, the data they handle, and where trust changes.
+- This gives us a concrete system to review with STRIDE instead of discussing threats only in theory.
+
+### Main Components of the System
+
+![Main components of the online store](./assets/threat-stride-store-components.svg)
+
+- Application server: handles business logic, authentication, authorization, checkout, and communication with other systems.
+- Database server: stores users, products, carts, orders, and other persistent business data.
+- User interface: the browser or frontend through which customers and administrators interact with the store.
+- Payment system: an external service used to process payments and return payment status information.
+
+### Data Flows and Trust Boundaries
+
+![Data flows and trust boundaries in the online store](./assets/threat-stride-store-data-flow.svg)
+
+- The internet user and the frontend are treated as less trusted because input originates outside the backend's control.
+- The backend and database form the trusted core of the application, but they still need internal access control and monitoring.
+- The payment provider is external, so all integration points must be authenticated, validated, and logged.
+
+### STRIDE Findings for the Online Store
+
+#### Spoofing
+- An attacker may try to hijack a customer session and place orders as that user.
+- A fake admin login page could be used to steal privileged credentials.
+- A forged payment callback could trick the server into marking an unpaid order as paid.
+
+#### Tampering
+- A customer may modify product prices, discount values, or item quantities before checkout if the server trusts client-side data.
+- An attacker could alter order identifiers or request parameters to manipulate another user's cart or order.
+- Payment status messages must be validated so third parties cannot change transaction state without authorization.
+
+#### Repudiation
+- A user may deny placing an order if login events, cart changes, and checkout actions are not logged clearly.
+- An administrator could change product prices or refund data and later deny doing so when audit trails are weak.
+- Without reliable timestamps and user attribution, incident investigation becomes much harder.
+
+#### Information Disclosure
+- Weak access control could expose customer profiles, addresses, order history, or payment-related metadata.
+- Verbose error messages may reveal SQL details, internal API paths, or other useful information to attackers.
+- Data sent between components must be protected so sensitive information is not leaked in transit or in logs.
+
+#### Denial of Service
+- Attackers may flood login, search, or checkout endpoints with requests until the store becomes slow or unavailable.
+- Large numbers of expensive product searches or cart updates can exhaust application or database resources.
+- The payment dependency can also become a bottleneck if retry logic or timeouts are handled poorly.
+
+#### Elevation of Privilege
+- A regular customer may attempt to access administrative routes or backend endpoints intended only for staff.
+- Broken authorization checks could let one user view or manage another user's orders.
+- If roles are enforced only in the UI, an attacker may bypass the frontend and call privileged functions directly.
+
+### Example Mitigations
+- Use strong authentication, secure session management, and signed or authenticated callbacks from payment providers.
+- Validate all critical data on the server and never trust prices, roles, or order state sent by the client.
+- Record important security events such as logins, order creation, refunds, and administrative changes.
+- Apply least privilege, rate limiting, transport encryption, and regular review of trust boundaries and external integrations.
+
+### Component Example: User Interface
+
+![STRIDE examples for the user interface](./assets/threat-stride-store-gui-example.svg)
+
+- This narrower view applies STRIDE only to the GUI, where attackers interact directly with forms, buttons, parameters, and visible data.
+- Spoofing: fake login pages can trick users into entering credentials.
+- Tampering: manipulated HTTP parameters can change prices, quantities, or target resources.
+- Information disclosure: error messages or exposed fields may leak sensitive data.
+- Denial of service: repeated HTTP requests can overload visible entry points such as login or search.
+- Elevation of privilege: XSS or broken client-side role checks may let an attacker act with stronger permissions.
+
+### Component Example: Payment System
+
+![STRIDE examples for the payment system](./assets/threat-stride-store-payment-example.svg)
+
+- The payment integration deserves separate review because it crosses a trust boundary into an external provider.
+- Spoofing: fake payment notifications can impersonate the legitimate payment service.
+- Tampering: transaction amounts, order identifiers, or status fields can be altered if integrity checks are weak.
+- Repudiation: without reliable verification and logs, the store may not be able to prove what payment event occurred.
+- Information disclosure: intercepted or poorly protected traffic can expose payment-related data.
+- In practice, these risks are reduced with signed callbacks, strict request validation, transport encryption, and detailed audit logging.
+
 ## Using STRIDE to Analyze a User Interface
 
 ![STRIDE analysis for a user interface](./assets/threat-stride-ui-overview.svg)
@@ -138,6 +223,24 @@
 - Teams still need technical knowledge of the application, platform, and architecture to use it well.
 - It works best as a framework for thinking, not as a substitute for secure design review, testing, or operational context.
 
+## Other Threat Modeling Frameworks
+
+![Other threat modeling frameworks](./assets/threat-other-frameworks.svg)
+
+- PASTA focuses on attacker-driven analysis and business impact across multiple stages.
+- Trike emphasizes risk management and stakeholder-defined acceptable risk levels.
+- OCTAVE is oriented toward organizational risk, critical assets, and operational context.
+- VAST is designed to scale threat modeling across larger enterprises and development pipelines.
+- STRIDE is often the easiest starting point for technical teams, but it is not the only valid framework.
+
+## Threat Modeling Tools
+
+![Threat modeling tools](./assets/threat-tools-overview.svg)
+
+- Microsoft Threat Modeling Tool is a free option that helps teams build diagrams, identify trust boundaries, and generate structured threat lists.
+- OWASP Threat Dragon is another free tool that supports diagram-based threat modeling and is widely used in learning environments.
+- Spending time with these tools is useful because they make threat modeling more repeatable and easier to document.
+
 ## Four Key Questions
 
 ![Four key questions in threat modeling](./assets/threat-four-key-questions.svg)
@@ -170,6 +273,59 @@
 - Choose mitigations that reduce risk to an acceptable level rather than aiming for perfect elimination.
 - Some threats require architectural changes, while others are better handled with security features or process improvements.
 - The output of this step should be a clear set of actions, owners, and priorities.
+
+### Documenting Threats
+
+![Threat documentation structure](./assets/threat-documentation-structure.svg)
+
+- A documented threat should be specific enough that someone else can understand the risk and decide what to do next.
+- Useful documentation usually includes the threat name, a short description, the attacker's goal, the attack technique, required privileges, business impact, and recommended mitigations.
+- Good documentation turns brainstorming notes into material that engineering, security, and management can actually act on.
+
+### Example Threat Record: SQL Injection
+
+![Example SQL injection threat record](./assets/threat-documentation-sql-injection.svg)
+
+- Threat name: SQL injection in the database-facing part of the application.
+- Description: an attacker manipulates input so the application sends malicious SQL to the database.
+- Goal: unauthorized access, data modification, or deletion of stored information.
+- Attack technique: injection through unvalidated or unsafely concatenated input values.
+- Required privileges: often none if the vulnerable entry point is reachable by unauthenticated users.
+- Business impact: high, because confidentiality, integrity, and possibly availability can all be affected.
+- Mitigations: parameterized queries, input validation, least-privilege database accounts, and secure error handling.
+
+### Risk Assessment
+
+![Risk assessment overview](./assets/threat-risk-assessment-overview.svg)
+
+- After identifying threats, the team estimates likelihood and impact.
+- Likelihood asks how probable or practical the attack is.
+- Impact asks how much harm the business, users, or system would suffer if the threat is exploited.
+- Combining those values helps determine the overall risk level and what should be fixed first.
+
+### Risk Example: SQL Injection
+
+![SQL injection risk assessment example](./assets/threat-risk-sqli-example.svg)
+
+- Likelihood: high when input reaches the database directly and exploitation is straightforward.
+- Impact: high because the attacker may read, change, or delete sensitive data.
+- Risk: high, so remediation should be prioritized immediately.
+
+### Risk Example: Cross-Site Scripting
+
+![Cross-site scripting risk assessment example](./assets/threat-risk-xss-example.svg)
+
+- Likelihood: medium when exploitation requires user interaction or a specific rendering path.
+- Impact: medium because XSS can still lead to session theft, defacement, or malicious actions in the victim's browser.
+- Risk: medium, which still requires treatment but may be scheduled after higher-risk issues.
+
+### Threat Prioritization
+
+![Threat prioritization](./assets/threat-prioritization.svg)
+
+- High-risk issues need immediate attention because they combine realistic exploitation with serious business impact.
+- Medium- and low-risk issues should still be tracked, but their remediation can often be scheduled based on available resources.
+- Prioritization should be revisited regularly because system changes can increase or reduce risk over time.
 
 ## Step 4: Did We Do a Good Enough Job?
 

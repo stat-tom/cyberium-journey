@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="860" viewBox="0 0 1200 860" role="img" aria-labelledby="title desc">
+  <title id="title">Threats for the payment system</title>
+  <desc id="desc">A component-level STRIDE example focused on payment integration risks.</desc>
+  <defs>
+    <style>
+      .bg { fill: #150f45; }
+      .title { fill: #ffffff; font: 700 58px 'Segoe UI', Arial, sans-serif; }
+      .accent { fill: none; stroke: #ff5d73; stroke-width: 7; stroke-linecap: round; stroke-linejoin: round; }
+      .heading { fill: #e7e9ff; font: 700 26px 'Segoe UI', Arial, sans-serif; }
+      .body { fill: #d7daf5; font: 400 23px 'Segoe UI', Arial, sans-serif; }
+    </style>
+  </defs>
+  <rect width="1200" height="860" class="bg"/>
+  <text x="26" y="82" class="title">Threats for the Payment</text>
+  <text x="26" y="154" class="title">System</text>
+
+  <g transform="translate(28 245)">
+    <circle cx="34" cy="34" r="30" class="accent"/>
+    <circle cx="24" cy="26" r="6" class="accent"/>
+    <circle cx="45" cy="26" r="6" class="accent"/>
+    <path d="M22 47 L16 66 L34 58 L52 66 L46 47" class="accent"/>
+    <path d="M24 26 L16 10 M45 26 L58 12 M34 58 L34 18" class="accent"/>
+  </g>
+  <text x="26" y="375" class="heading">Spoofing</text>
+  <text x="26" y="435" class="body">Fake payment notifications</text>
+  <text x="26" y="475" class="body">impersonating the provider.</text>
+
+  <g transform="translate(600 248)">
+    <path d="M18 58 L52 24 L75 47 L41 81 L18 81 Z" class="accent"/>
+    <path d="M58 18 L80 40" class="accent"/>
+    <path d="M30 70 L52 48" class="accent"/>
+  </g>
+  <text x="620" y="375" class="heading">Tampering</text>
+  <text x="620" y="435" class="body">Manipulating transaction amounts</text>
+  <text x="620" y="475" class="body">or order-related parameters.</text>
+
+  <g transform="translate(30 570)">
+    <path d="M12 48 C24 20 54 12 72 26" class="accent"/>
+    <path d="M12 76 L72 76" class="accent"/>
+    <path d="M46 18 L82 54" class="accent"/>
+  </g>
+  <text x="26" y="695" class="heading">Repudiation</text>
+  <text x="26" y="755" class="body">Insufficient verification by the</text>
+  <text x="26" y="795" class="body">store side of the transaction.</text>
+
+  <g transform="translate(610 565)">
+    <path d="M16 72 L34 18 L76 6 L98 28 L86 70 L42 88 Z" class="accent"/>
+    <circle cx="53" cy="42" r="7" class="accent"/>
+  </g>
+  <text x="620" y="695" class="heading">Information Disclosure</text>
+  <text x="620" y="755" class="body">Payment data intercepted or exposed</text>
+  <text x="620" y="795" class="body">through weak transport protection.</text>
+</svg>

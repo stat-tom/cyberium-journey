@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="860" viewBox="0 0 1200 860" role="img" aria-labelledby="title desc">
+  <title id="title">Step 3: Threat documentation</title>
+  <desc id="desc">A layered diagram showing the main fields used to document a threat.</desc>
+  <defs>
+    <style>
+      .bg { fill: #150f45; }
+      .title { fill: #ffffff; font: 700 56px 'Segoe UI', Arial, sans-serif; }
+      .layer { fill: #3a356c; stroke: #564f90; stroke-width: 2; }
+      .num { fill: #e6e8ff; font: 700 28px 'Segoe UI', Arial, sans-serif; }
+      .label { fill: #dfe2ff; font: 700 24px 'Segoe UI', Arial, sans-serif; }
+      .line { stroke: #4e4982; stroke-width: 2; }
+    </style>
+  </defs>
+  <rect width="1200" height="860" class="bg"/>
+  <text x="36" y="78" class="title">Step 3: Document Threats</text>
+
+  <polygon points="360,140 450,300 270,300" class="layer"/>
+  <polygon points="450,306 540,470 180,470 270,306" class="layer"/>
+  <polygon points="540,476 630,640 90,640 180,476" class="layer"/>
+  <polygon points="630,646 720,820 0,820 90,646" class="layer" transform="translate(120 0)"/>
+
+  <path d="M450 300 H1180" class="line"/>
+  <path d="M540 470 H1180" class="line"/>
+  <path d="M630 640 H1180" class="line"/>
+  <path d="M720 820 H1180" class="line"/>
+
+  <text x="360" y="232" text-anchor="middle" class="num">1</text>
+  <text x="360" y="392" text-anchor="middle" class="num">2</text>
+  <text x="360" y="562" text-anchor="middle" class="num">3</text>
+  <text x="480" y="736" text-anchor="middle" class="num">4</text>
+
+  <text x="520" y="228" class="label">Threat name</text>
+  <text x="520" y="390" class="label">Description and goal</text>
+  <text x="520" y="560" class="label">Technique and required privileges</text>
+  <text x="760" y="736" class="label">Business impact and mitigations</text>
+</svg>
