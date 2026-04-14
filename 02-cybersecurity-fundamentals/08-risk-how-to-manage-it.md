@@ -1,7 +1,7 @@
 # Lesson 8 - Risk - How to Manage It?
 
 ## Status
-- Not completed
+- Completed
 
 ## What Risk Means in Cybersecurity
 - Risk is the possibility that a threat will exploit a vulnerability and cause harm to the organization.
