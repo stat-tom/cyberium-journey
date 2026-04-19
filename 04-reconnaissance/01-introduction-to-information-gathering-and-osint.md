@@ -29,7 +29,7 @@ In this lesson, you will learn the basics of reconnaissance and OSINT: collectin
 - Locations: office addresses, branches, maps, geographic footprint, and facility details.
 - Exterior and interior photos: publicly available images of buildings, entrances, parking, and workspace areas.
 - Physical security: camera placement, window protections, fences, gates, and visible access controls.
-- Personnel: executives, IT staff, security teams, public profiles, and job advertisements.
+- Personnel: executives, IT staff, security teams, public profiles, and job advertisements. Tools like Hunter.io can help find corporate email addresses and verify employee contact information from public sources.
 - File metadata: hidden data in documents, presentations, and images that may reveal software versions, directory structures, or author information.
 - Contact information: email addresses, phone numbers, fax numbers, social media profiles, and contact forms.
 - Business information: corporate details, company registries, tax IDs, financial reports, partnerships, and contractual relationships.
@@ -50,6 +50,10 @@ In this lesson, you will learn the basics of reconnaissance and OSINT: collectin
   - `-CreateDate -ModifyDate -DateTimeOriginal` to show timestamps.
   - `-s -G` to display raw tag names with group information.
   - `-diff file1.jpg file2.jpg` to compare metadata differences between files.
+- Example image metadata output often includes fields like focal length and GPS position, for example:
+  - `Focal Length : 4.0 mm (35 mm equivalent: 28.0 mm)`
+  - `GPS Position : 54 deg 21' 3.02" N, 18 deg 39' 28.34" E`
+  This information can reveal where and how a photo was taken.
 - When metadata reveals the program or tool used to generate a file, that software becomes a valuable intelligence lead. Knowing the application or library used can help you search for known vulnerabilities, version-specific bugs, and misconfiguration issues related to that software.
 - Example: if metadata indicates a document was created with WPS Office, you can search for "WPS Office vulnerabilities 2026" to identify recent CVEs and security advisories affecting that software.
 
@@ -57,6 +61,9 @@ In this lesson, you will learn the basics of reconnaissance and OSINT: collectin
 - Collecting information about the organization: public profiles, leadership, locations, and corporate structure.
 - Gathering infrastructure information: domains, hosts, network architecture, exposed services, and technology stacks.
 - Collecting other data: documents, leaked credentials, social engineering clues, and external relationships.
+- Using OSINT tools and platforms:
+  - Hunter.io: find corporate email addresses and employee contact information from public sources.
+  - Przeswietl.pl: Polish-language tool for searching through publicly available data, documents, and records to uncover organizational and personal information.
 
 ## Why Reconnaissance Matters
 - Good preparation reduces guesswork and helps you understand the real attack surface.
