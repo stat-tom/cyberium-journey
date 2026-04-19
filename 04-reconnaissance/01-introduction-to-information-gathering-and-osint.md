@@ -50,6 +50,8 @@ In this lesson, you will learn the basics of reconnaissance and OSINT: collectin
   - `-CreateDate -ModifyDate -DateTimeOriginal` to show timestamps.
   - `-s -G` to display raw tag names with group information.
   - `-diff file1.jpg file2.jpg` to compare metadata differences between files.
+- When metadata reveals the program or tool used to generate a file, that software becomes a valuable intelligence lead. Knowing the application or library used can help you search for known vulnerabilities, version-specific bugs, and misconfiguration issues related to that software.
+- Example: if metadata indicates a document was created with WPS Office, you can search for "WPS Office vulnerabilities 2026" to identify recent CVEs and security advisories affecting that software.
 
 ## OSINT Techniques
 - Collecting information about the organization: public profiles, leadership, locations, and corporate structure.
