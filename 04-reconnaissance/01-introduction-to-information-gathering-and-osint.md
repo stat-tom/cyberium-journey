@@ -1,33 +1,37 @@
-# Lesson 1 - Introduction to Information Gathering and OSINT
+# Lesson 6.1 - Introduction to Information Gathering and OSINT
 
 ## Status
 - Planned
 
-## Overview
-- Reconnaissance is the process of collecting information about a target before active testing begins.
-- OSINT, or Open Source Intelligence, focuses on information gathered from publicly available sources.
+## Introduction
+In this lesson, you will learn the basics of reconnaissance and OSINT: collecting information from publicly available sources. You will discover how to build a profile of an organization that is the target of a penetration test.
+
+## Learning Objectives
+- Distinguish reconnaissance types: passive, active, and enumeration.
+- Gather information about an organization: locations, personnel, metadata, contact details, and business data.
+- Use `exiftool` to read file metadata as part of OSINT.
+
+## Reconnaissance Types
+- Passive reconnaissance: collecting information without direct interaction with the target. Examples include search engines, public records, certificates, social media, and open data.
+- Active reconnaissance: actions that involve direct interaction with the target, such as DNS queries, website requests, port scans, or service checks.
+- Enumeration: detailed analysis that uses reconnaissance results as a starting point to identify specific assets, users, and weaknesses.
+
+## What to Collect About an Organization
+- Locations and photos: office addresses, branches, maps, and publicly available images of facilities.
+- Personnel: executives, IT staff, security teams, public profiles, and job advertisements.
+- File metadata: hidden data in documents, presentations, and images that may reveal software versions, directory structures, or author information.
+- Contact information: email addresses, phone numbers, fax numbers, social media profiles, and contact forms.
+- Business information: corporate details, company registries, tax IDs, financial reports, partnerships, and contractual relationships.
+
+## Metadata and `exiftool`
+- `exiftool` is a tool for reading metadata from files such as images, Microsoft Office documents, PDFs, and multimedia files.
+- In OSINT, metadata can reveal dates, GPS locations, author names, and application details.
+- Example usage: `exiftool filename.jpg`
 
 ## Why Reconnaissance Matters
-- Good reconnaissance helps reduce guesswork and reveals the real attack surface.
-- It identifies technologies, exposed assets, naming patterns, employees, third-party services, and potential trust relationships.
+- Good preparation reduces guesswork and helps you understand the real attack surface.
+- It identifies technologies, assets, naming patterns, employees, and trust relationships.
 - The more accurate the early information, the more efficient later testing becomes.
 
-## Passive and Active Reconnaissance
-- Passive reconnaissance gathers information without directly interacting with the target systems, for example by using search engines, public certificates, or breach datasets.
-- Active reconnaissance touches the target more directly, for example through DNS queries, web requests, or service probing.
-- Passive methods are usually quieter, while active methods can reveal more detail but create more detectable traffic.
-
-## Common OSINT Sources
-- Search engines, company websites, blogs, job postings, and public documentation.
-- DNS records, certificate transparency logs, and WHOIS-related data.
-- Code repositories, package registries, and exposed configuration files.
-- Social media, professional profiles, and public presentations.
-- Public breach data and leak monitoring platforms where legally permitted.
-
-## Typical Outcomes
-- A list of domains, subdomains, IP addresses, email patterns, technologies, and exposed applications.
-- Better hypotheses about where valuable targets or weak points may exist.
-- Input for later stages such as crawling, scanning, and validation.
-
-## Notes
-- Reconnaissance should stay tied to scope, legality, and evidence quality. Public information can still be inaccurate or outdated.
+## Note
+Reconnaissance must remain within scope, legality, and ethical boundaries. Public information may be outdated or misleading, so it should be verified in later stages.
